@@ -1,0 +1,3 @@
+Per produrre il grafo, installare graphviz e poi:
+
+dot -Tsvg -o tasks-dal19Mar.svg tasks-dal19Mar.inp
