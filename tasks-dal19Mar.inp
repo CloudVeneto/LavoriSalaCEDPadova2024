@@ -1,4 +1,49 @@
-digraph { 
+digraph {
+#
+# Nodi
+#
+"Spegnimento di tutte le VM" [shape="box", style="filled",color="red"];
+"Migrazione a nuovo rabbit" [shape="box", style="filled",color="red"];
+"Spegnimento OpenStack su compute-node e t2-cld-nat" [shape="box", style="filled",color="red"];
+"Spegnimento OpenStack sui controller node" [shape="box", style="filled",color="red"];
+"Riorganizzazione lame" [shape="box", style="filled",color="red"];
+"Migrazione DB a nuovo cluster percona" [shape="box", style="filled",color="red"];
+"cld-storage-01: spegnimento e trasporto su piano basso" [shape="box", style="filled",color="red"];
+"Compute node Padova: spegnimento e trasposto su piano basso" [shape="box", style="filled",color="red"];
+"Spegnimento blade2" [shape="box", style="filled",color="red"];
+"Configurazione rete su blade2" [shape="box", style="filled",color="red"];
+"blade2 sopra aula A" [shape="oval", style="filled",color="red"];
+"Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [shape="box", style="filled",color="red"];
+"Spegnimento cld-ctrl-0x e spostamento sul piano basso" [shape="box", style="filled",color="red"];
+"Spegnimento VM di servizio su cld-px"	[shape="box", style="filled",color="red"];
+"Spegnimento cld-px*" [shape="box", style="filled",color="red"];
+"Spegnimento cld-log" [shape="box", style="filled",color="red"];
+"Spegnimento cluster ceph" [shape="box", style="filled",color="red"];
+"Spegnimento blade1" [shape="box", style="filled",color="red"];
+"Spostamento cld-px* su piano basso" [shape="box", style="filled",color="red"];
+"Spostamento ceph-osd-*" [shape="box", style="filled",color="red"];
+"Spostamento ceph-mon-01" [shape="box", style="filled",color="red"];
+"Spegnimento cld-config" [shape="box", style="filled",color="red"];
+"Spegnimento cld-nat" [shape="box", style="filled",color="red"];
+"Spegnimento t2-nfs-ui" [shape="box", style="filled",color="red"];
+"Spostamento switches" [shape="square", style="filled",color="red"];
+"Spostamento cld-config" [shape="box", style="filled",color="red"];
+"Spostamento t2-nfs-ui" [shape="box", style="filled",color="red"];
+"Spostamento blade1" [shape="box", style="filled",color="red"];
+"Spostamento cld-nat" [shape="box", style="filled",color="red"];
+"Riattivazione link T2" [shape="box", style="filled",color="red"];
+"Riattivazione t2-nfs-ui" [shape="box", style="filled",color="red"];
+"Test t2-nfs-ui" [shape="oval", style="filled",color="red"];
+"Riattivazione cld-storage-01" [shape="oval", style="filled",color="red"];
+"Ricablaggio compute node Padova" [shape="box", style="filled",color="red"];
+"Riattivazione blade1" [shape="box", style="filled",color="red"];
+"Riattivazione cld-nat" [shape="box", style="filled",color="red"];
+"Riattivazione cld-config" [shape="box", style="filled",color="red"];
+
+#
+#
+# Dipendenze
+#
 "Spegnimento di tutte le VM" -> "Migrazione a nuovo rabbit"
 "Migrazione a nuovo rabbit" -> "Spegnimento OpenStack su compute-node e t2-cld-nat"
 "Spegnimento OpenStack su compute-node e t2-cld-nat" -> "Spegnimento OpenStack sui controller node"
@@ -16,7 +61,7 @@ digraph {
 "Spegnimento cld-px*" -> "Spostamento cld-px* su piano basso"
 "Spegnimento cld-px*" -> "Spegnimento cluster ceph"
 "Spegnimento cluster ceph" -> "Spegnimento blade1"
-"Spegnimento cld-log" -> "Spegnimento blade1"
+"Spegnimento cld-log" -> "Spegnimento cluster ceph"
 "Spegnimento blade1" -> "Spostamento blade1"
 "Spegnimento cluster ceph" -> "Spostamento ceph-mon-01"
 "Spegnimento cluster ceph" -> "Spostamento ceph-osd-*"
@@ -28,8 +73,10 @@ digraph {
 "Spegnimento cld-nat" -> "Spostamento cld-nat"
 "Spegnimento cld-nat" -> "Spegnimento t2-nfs-ui" #Questa dipendenza e' solo per segnalare che questa e' una delle ultime da fare
 "Spegnimento t2-nfs-ui" -> "Spostamento switches"
-"Spostamento switches" -> "Riattivazione t2-nfs-ui"
+"Spostamento switches" -> "Riattivazione link T2"
+"Riattivazione link T2" -> "Riattivazione t2-nfs-ui"
 "Spostamento t2-nfs-ui" -> "Riattivazione t2-nfs-ui"
+"Riattivazione t2-nfs-ui" -> "Test t2-nfs-ui"
 "Spostamento switches" -> "Ricablaggio t2-cld-nat"
 "Spostamento switches" -> "Ricablaggio compute node Padova"
 "Compute node Padova: spegnimento e trasposto su piano basso" -> "Ricablaggio compute node Padova"
@@ -39,7 +86,6 @@ digraph {
 "Spostamento cld-nat" -> "Riattivazione cld-nat"
 "Spostamento switches" -> "Riattivazione cld-storage-01"
 "cld-storage-01: spegnimento e trasporto su piano basso" -> "Riattivazione cld-storage-01"
-"Spostamento switches" -> "Riattivazione cld-config"
 "Spostamento cld-config" -> "Riattivazione cld-config"
 "Riattivazione cld-nat" -> "Riattivazione cld-config"
 "Riattivazione cld-config" -> "Update a AlmaLinux9 delle cld-nl*"
@@ -48,7 +94,7 @@ digraph {
 "Riattivazione blade1" -> "Update a AlmaLinux9 delle cld-np* che stanno su blade"
 "Riattivazione cld-config" -> "Update a AlmaLinux9 delle cld-np* che stanno su blade"
 "Riattivazione cld-config" -> "Update a AlmaLinux9 delle cld-dfa*"
-"Spostamento switches" -> "Riattivazione ceph-mon-01"
+"Riattivazione cld-nat" -> "Riattivazione ceph-mon-01"
 "Spostamento ceph-mon-01" -> "Riattivazione ceph-mon-01"
 "Riattivazione ceph-mon-01" -> "Riaccensione ceph-mon-02/03"
 "Riattivazione blade1" -> "Riaccensione ceph-mon-02/03"
@@ -78,7 +124,8 @@ digraph {
 "Riaccensione servizi su t2-cld-nat" -> "Controllo servizi k8s e test"
 "Riaccensione compute node Padova e relativi servizi" -> "Controllo servizi k8s e test"
 "Riaccensione Percona" -> "cld-db-* sopra aula A"
-"Spegnimento blade2" -> "blade2 sopra aula A"
+"Spegnimento blade2" -> "Configurazione rete su blade2"
+"Configurazione rete su blade2" -> "blade2 sopra aula A"
 "Test OpenStack" -> "Annuncio agli utenti che abbiamo finito"
 "Controllo servizi k8s e test" -> "Annuncio agli utenti che abbiamo finito"
 "Annuncio agli utenti che abbiamo finito" -> "Birra"
