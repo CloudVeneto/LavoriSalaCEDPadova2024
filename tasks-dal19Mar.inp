@@ -39,6 +39,18 @@ digraph {
 "Riattivazione blade1" [shape="box", style="filled",color="red"];
 "Riattivazione cld-nat" [shape="box", style="filled",color="red"];
 "Riattivazione cld-config" [shape="box", style="filled",color="red"];
+"Ricablaggio t2-cld-nat" [shape="box", style="filled",color="red"];
+"Riattivazione ceph-mon-01" [shape="box", style="filled",color="red"];
+"Riaccensione ceph-mon-02/03" [shape="box", style="filled",color="red"];
+"Riattivazione ceph-osd-*" [shape="box", style="filled",color="red"];
+"Riattivare ceph" [shape="box", style="filled",color="red"];
+"Riaccendere cld-log" [shape="box", style="filled",color="red"];
+"Ricablaggio cld-px*" [shape="box", style="filled",color="red"];
+"Riattivazione cluster px" [shape="box", style="filled",color="red"];
+"Riaccensione Percona" [shape="box", style="filled",color="red"];
+"Riaccensione altre VM cluster px" [shape="box", style="filled",color="red"];
+"Ricablaggio cld-ctrl-0x" [shape="box", style="filled",color="red"];
+
 
 #
 #
@@ -78,6 +90,7 @@ digraph {
 "Spostamento t2-nfs-ui" -> "Riattivazione t2-nfs-ui"
 "Riattivazione t2-nfs-ui" -> "Test t2-nfs-ui"
 "Spostamento switches" -> "Ricablaggio t2-cld-nat"
+"Ricablaggio t2-cld-nat" -> "Riaccensione compute node Padova e relativi servizi"
 "Spostamento switches" -> "Ricablaggio compute node Padova"
 "Compute node Padova: spegnimento e trasposto su piano basso" -> "Ricablaggio compute node Padova"
 "Spostamento switches" -> "Riattivazione blade1"
@@ -102,10 +115,16 @@ digraph {
 "Riaccensione ceph-mon-02/03" -> "Riattivazione ceph-osd-*"
 "Riattivazione ceph-osd-*" -> "Riattivare ceph"
 "Riattivare ceph" -> "Riaccendere cld-log"
-"Spostamento cld-px* su piano basso" -> "Riattivazione cld-px"
-"Riaccendere cld-log" -> "Riattivazione cld-px"
-"Riattivazione cld-px" -> "Riaccensione Percona"
+"Spostamento cld-px* su piano basso" -> "Ricablaggio cld-px*"
+"Spostamento switches" -> "Ricablaggio cld-px*"
+"Ricablaggio cld-px*" -> "Riattivazione cluster px"
+"Riaccendere cld-log" -> "Riattivazione cluster px"
+"Riattivazione cluster px" -> "Riaccensione Percona"
 "Riaccensione Percona" -> "Riaccensione altre VM cluster px"
+"Spegnimento cld-ctrl-0x e spostamento sul piano basso" -> "Ricablaggio cld-ctrl-0x"
+"Spostamento switches" -> "Ricablaggio	cld-ctrl-0x"
+
+
 "Riaccensione altre VM cluster px" -> "Riattivazione cld-ctrl-0x"
 "Riattivazione cld-ctrl-0x" -> "Riaccensione servizi su cld-ctrl-0x"
 "Riaccensione servizi su cld-ctrl-0x" -> "Riaccensione servizi su t2-cld-nat"
