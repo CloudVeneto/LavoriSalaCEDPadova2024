@@ -122,7 +122,7 @@ digraph {
 "Riattivazione cluster px" -> "Riaccensione Percona"
 "Riaccensione Percona" -> "Riaccensione altre VM cluster px"
 "Spegnimento cld-ctrl-0x e spostamento sul piano basso" -> "Ricablaggio cld-ctrl-0x"
-"Spostamento switches" -> "Ricablaggio	cld-ctrl-0x"
+"Spostamento switches" -> "Ricablaggio cld-ctrl-0x"
 
 
 "Riaccensione altre VM cluster px" -> "Riattivazione cld-ctrl-0x"
