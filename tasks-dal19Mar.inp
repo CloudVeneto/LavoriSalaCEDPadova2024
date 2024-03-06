@@ -50,8 +50,21 @@ digraph {
 "Riaccensione Percona" [shape="box", style="filled",color="red"];
 "Riaccensione altre VM cluster px" [shape="box", style="filled",color="red"];
 "Ricablaggio cld-ctrl-0x" [shape="box", style="filled",color="red"];
-
-
+"Riattivazione cld-ctrl-0x" [shape="box", style="filled",color="red"];
+"Riaccensione servizi OpenStack su cld-nl-*" [shape="box", style="filled",color="red"];
+"Update a AlmaLinux9 delle cld-nl*" [shape="box", style="filled",color="red"];
+"Update a AlmaLinux9 delle cld-np* che non stanno su blade" [shape="box", style="filled",color="red"];
+"Update a AlmaLinux9 delle cld-np* che stanno su blade" [shape="box", style="filled",color="red"];
+"Update a AlmaLinux9 delle cld-dfa*" [shape="box", style="filled",color="red"];
+"Riaccensione compute node Padova e relativi servizi" [shape="box", style="filled",color="red"];
+"Riaccensione servizi OpenStack su t2-cld-nat" [shape="box", style="filled",color="red"];
+"Abilitazione cld-nl-25..28" [shape="box", style="filled",color="red"];
+"Dismissione vecchie cld-nl" [shape="box", style="filled",color="red"];
+"Controllo servizi k8s e test" [shape="box", style="filled",color="red"];
+"Test OpenStack" [shape="box", style="filled",color="red"];
+"Annuncio agli utenti che abbiamo finito" [shape="box", style="filled",color="red"];
+"Birra" [shape="oval", style="filled",color="red"];
+"cld-db-* sopra aula A" [shape="oval", style="filled",color="red"];
 #
 #
 # Dipendenze
@@ -90,7 +103,7 @@ digraph {
 "Spostamento t2-nfs-ui" -> "Riattivazione t2-nfs-ui"
 "Riattivazione t2-nfs-ui" -> "Test t2-nfs-ui"
 "Spostamento switches" -> "Ricablaggio t2-cld-nat"
-"Ricablaggio t2-cld-nat" -> "Riaccensione compute node Padova e relativi servizi"
+"Ricablaggio t2-cld-nat" -> "Riaccensione servizi OpenStack su t2-cld-nat"
 "Spostamento switches" -> "Ricablaggio compute node Padova"
 "Compute node Padova: spegnimento e trasposto su piano basso" -> "Ricablaggio compute node Padova"
 "Spostamento switches" -> "Riattivazione blade1"
@@ -107,6 +120,7 @@ digraph {
 "Riattivazione blade1" -> "Update a AlmaLinux9 delle cld-np* che stanno su blade"
 "Riattivazione cld-config" -> "Update a AlmaLinux9 delle cld-np* che stanno su blade"
 "Riattivazione cld-config" -> "Update a AlmaLinux9 delle cld-dfa*"
+"Ricablaggio compute node Padova" -> "Update a AlmaLinux9 delle cld-dfa*"
 "Riattivazione cld-nat" -> "Riattivazione ceph-mon-01"
 "Spostamento ceph-mon-01" -> "Riattivazione ceph-mon-01"
 "Riattivazione ceph-mon-01" -> "Riaccensione ceph-mon-02/03"
@@ -123,24 +137,22 @@ digraph {
 "Riaccensione Percona" -> "Riaccensione altre VM cluster px"
 "Spegnimento cld-ctrl-0x e spostamento sul piano basso" -> "Ricablaggio cld-ctrl-0x"
 "Spostamento switches" -> "Ricablaggio cld-ctrl-0x"
-
-
+"Ricablaggio cld-ctrl-0x" -> "Riattivazione cld-ctrl-0x"
 "Riaccensione altre VM cluster px" -> "Riattivazione cld-ctrl-0x"
-"Riattivazione cld-ctrl-0x" -> "Riaccensione servizi su cld-ctrl-0x"
-"Riaccensione servizi su cld-ctrl-0x" -> "Riaccensione servizi su t2-cld-nat"
-"Riaccensione servizi su cld-ctrl-0x" -> "Riaccensione servizi OpenStack su cld-nl-*"
+"Riattivazione cld-ctrl-0x" -> "Riaccensione servizi OpenStack su cld-nl-*"
+"Riattivazione cld-ctrl-0x" -> "Riaccensione servizi OpenStack su t2-cld-nat"
 "Update a AlmaLinux9 delle cld-nl*" -> "Riaccensione servizi OpenStack su cld-nl-*"
 "Riaccensione servizi OpenStack su cld-nl-*" -> "Abilitazione cld-nl-25..28"
 "Abilitazione cld-nl-25..28" -> "Dismissione vecchie cld-nl"
 "Update a AlmaLinux9 delle cld-np* che non stanno su blade" -> "Riaccensione compute node Padova e relativi servizi"
 "Update a AlmaLinux9 delle cld-np* che stanno su blade" -> "Riaccensione compute node Padova e relativi servizi"
 "Update a AlmaLinux9 delle cld-dfa*" -> "Riaccensione compute node Padova e relativi servizi"
-"Riaccensione servizi su cld-ctrl-0x" -> "Riaccensione compute node Padova e relativi servizi"
+"Riattivazione cld-ctrl-0x" -> "Riaccensione compute node Padova e relativi servizi"
 "Riaccensione compute node Padova e relativi servizi" -> "Test OpenStack"
 "Dismissione vecchie cld-nl" -> "Test OpenStack"
-"Riaccensione servizi su t2-cld-nat" -> "Test OpenStack"
+"Riaccensione servizi OpenStack su t2-cld-nat" -> "Test OpenStack"
 "Dismissione vecchie cld-nl" -> "Controllo servizi k8s e test"
-"Riaccensione servizi su t2-cld-nat" -> "Controllo servizi k8s e test"
+"Riaccensione servizi OpenStack su t2-cld-nat" -> "Controllo servizi k8s e test"
 "Riaccensione compute node Padova e relativi servizi" -> "Controllo servizi k8s e test"
 "Riaccensione Percona" -> "cld-db-* sopra aula A"
 "Spegnimento blade2" -> "Configurazione rete su blade2"
