@@ -65,6 +65,7 @@ digraph {
 "Annuncio agli utenti che abbiamo finito" [shape="box", style="filled",color="red"];
 "Birra" [shape="oval", style="filled",color="red"];
 "cld-db-* sopra aula A" [shape="oval", style="filled",color="red"];
+"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [shape="oval", style="filled",color="red"];
 #
 #
 # Dipendenze
@@ -160,4 +161,5 @@ digraph {
 "Test OpenStack" -> "Annuncio agli utenti che abbiamo finito"
 "Controllo servizi k8s e test" -> "Annuncio agli utenti che abbiamo finito"
 "Annuncio agli utenti che abbiamo finito" -> "Birra"
+"Riorganizzazione lame" -> "Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui"
 }
