@@ -12,65 +12,76 @@ digraph {
 "Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="bold"];
 "Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="bold"];
 "cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="bold"];
-"Compute node Padova: spegnimento e trasposto su piano basso" [label="7.Compute node Padova: spegnimento e trasposto su piano basso (~ tutti)", shape="box", style="bold"];
+"Compute node Padova: spegnimento e trasposto su piano basso" [label="7.Compute node Padova: spegnimento e trasposto su piano basso \n
+ Massimo, Marco: cld-np-gpu-01, cld-np-21, cld-dfa-05, cld-dfa-gpu-02, cld-elx-01..04, \n
+ Matteo, Lisa: cld-np-gpu-02, cld-np-22, cld-dfa-06, cld-dfa-gpu-03, cld-uni-01..04\n
+ Loris, Federica: cld-np-gpu-03, cld-np-23, cld-dfa-07, cld-dfa-gpu-04, cld-uni-05..08\n
+ Rita, PaoloA, Antonino: cld-np-20, cld-dfa-01..04, cld-dfa-gpu-01, cld-dfa-gpu-05, cld-uni-09..12", shape="box", style="bold"];
 "Spegnimento blade2" [label="30.Spegnimento blade2 (SergioT)", shape="box", style="bold"];
 "Configurazione rete su blade2" [label="96.Configurazione rete su blade2 (SergioT)", shape="box", style="bold"];
 "blade2 sopra aula A" [label="97.blade2 sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
-
-
 "Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [label="99.Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare (SergioF, Daniel, Davide)", shape="box", style="bold"];
-"Spegnimento cld-ctrl-0x e spostamento sul piano basso" [shape="box", style="bold"];
-"Spegnimento VM di servizio su cld-px"	[shape="box", style="bold"];
-"Spegnimento cld-px*" [shape="box", style="bold"];
-"Spegnimento cld-log" [shape="box", style="bold"];
-"Spegnimento cluster ceph" [shape="box", style="bold"];
-"Spegnimento blade1" [shape="box", style="bold"];
-"Spostamento cld-px* su piano basso" [shape="box", style="bold"];
-"Spostamento ceph-osd-*" [shape="box", style="bold"];
-"Spostamento ceph-mon-01" [shape="box", style="bold"];
-"Spegnimento cld-config" [shape="box", style="bold"];
-"Spegnimento cld-nat" [shape="box", style="bold"];
-"Spegnimento t2-nfs-ui" [shape="box", style="bold"];
-"Spostamento switches" [shape="square", style="bold"];
-"Spostamento cld-config" [shape="box", style="bold"];
-"Spostamento t2-nfs-ui" [shape="box", style="bold"];
-"Spostamento blade1" [shape="box", style="bold"];
-"Spostamento cld-nat" [shape="box", style="bold"];
-"Riattivazione link T2" [shape="box", style="bold"];
-"Riattivazione t2-nfs-ui" [shape="box", style="bold"];
-"Test t2-nfs-ui" [shape="oval", style="bold"];
-"Riattivazione cld-storage-01" [shape="oval", style="bold"];
-"Ricablaggio compute node Padova" [shape="box", style="bold"];
-"Riattivazione blade1" [shape="box", style="bold"];
-"Riattivazione cld-nat" [shape="box", style="bold"];
-"Riattivazione cld-config" [shape="box", style="bold"];
-"Ricablaggio t2-cld-nat" [shape="box", style="bold"];
-"Riattivazione ceph-mon-01" [shape="box", style="bold"];
-"Riaccensione ceph-mon-02/03" [shape="box", style="bold"];
-"Riattivazione ceph-osd-*" [shape="box", style="bold"];
-"Riattivare ceph" [shape="box", style="bold"];
-"Riaccendere cld-log" [shape="box", style="bold"];
-"Ricablaggio cld-px*" [shape="box", style="bold"];
-"Riattivazione cluster px" [shape="box", style="bold"];
-"Riaccensione Percona" [shape="box", style="bold"];
-"Riaccensione altre VM cluster px" [shape="box", style="bold"];
-"Ricablaggio cld-ctrl-0x" [shape="box", style="bold"];
-"Riattivazione cld-ctrl-0x" [shape="box", style="bold"];
-"Riaccensione servizi OpenStack su cld-nl-*" [shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-nl*" [shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-np* che non stanno su blade" [shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-np* che stanno su blade" [shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-dfa*" [shape="box", style="bold"];
-"Riaccensione compute node Padova e relativi servizi" [shape="box", style="bold"];
-"Riaccensione servizi OpenStack su t2-cld-nat" [shape="box", style="bold"];
-"Abilitazione cld-nl-25..28" [shape="box", style="bold"];
-"Dismissione vecchie cld-nl" [shape="box", style="bold"];
-"Controllo servizi k8s e test" [shape="box", style="bold"];
-"Test OpenStack" [shape="box", style="bold"];
-"Annuncio agli utenti che abbiamo finito" [shape="box", style="bold"];
+"Spegnimento cld-ctrl-0x e spostamento sul piano basso" [label="31.Spegnimento cld-ctrl-0x e spostamento sul piano basso (Massimo, SergioT)", shape="box", style="bold"];
+"Spegnimento VM di servizio su cld-px"	[label="32.Spegnimento VM di servizio su cld-px (ALberto)", shape="box", style="bold"];
+"Spegnimento cld-px*" [label="34.Spegnimento cld-px* (Alberto)", shape="box", style="bold"];
+"Spegnimento cld-log" [label="33.Spegnimento cld-log (SergioT)", shape="box", style="bold"];
+"Spegnimento cluster ceph" [label="40.Spegnimento cluster ceph (Massimo)", shape="box", style="bold"];
+"Spegnimento blade1" [label="41.Spegnimento blade1 (SergioT)", shape="box", style="bold"];
+"Spostamento cld-px* su piano basso" [label="35.Spostamento cld-px* su piano basso\n
+Matteo, Lisa: cld-px-06\n
+Loris, Federica: cld-px-08\n
+Rita, PaoloA, Antonino: cld-px-09\n
+SergioT, Marco: cld-px-10", shape="box", style="bold"];
+"Spostamento ceph-osd-*" [label="44.Spostamento ceph-osd-*\n
+ Massimo, Marco: ceph-osd-02, ceph-osd-06, ceph-osd-10\n
+ Matteo, Lisa: ceph-osd-03, ceph-osd-07, ceph-osd-11\n
+ Loris, Federica: ceph-osd-04m ceph-osd-08, ceph-osd-12\n
+ Rita, PaoloA, Antonino: ceph-osd-05, ceph-osd-09",shape="box", style="bold"];
+"Spostamento ceph-mon-01" [label="43.Spostamento ceph-mon-01 (Rita, PaoloA, Antonino)",shape="box", style="bold"];
+"Spegnimento cld-config" [label="58.Spegnimento cld-config (Massimo)", shape="box", style="bold"];
+"Spegnimento cld-nat" [label="60.Spegnimento cld-nat (SergioT)", shape="box", style="bold"];
+"Spegnimento t2-nfs-ui" [label="56.Spegnimento t2-nfs-ui (Massimo)", shape="box", style="bold"];
+"Spostamento switches" [label="62.Spostamento switches (SergioT, Matteo, Alberto)", shape="square", style="bold"];
+"Spostamento cld-config" [label="59.Spostamento cld-config (Massimo, Marco)", shape="box", style="bold"];
+"Spostamento t2-nfs-ui" [label="57.Spostamento t2-nfs-ui (Rita, PaoloA, Antonino)", shape="box", style="bold"];
+"Spostamento blade1" [label="42.Spostamento blade1 (Loris, Massimo, Marco)", shape="box", style="bold"];
+"Spostamento cld-nat" [label="61.Spostamento cld-nat (Matteo, Lisa)", shape="box", style="bold"];
+"Riattivazione link T2" [label="63.Riattivazione link T2 (SergioT)", shape="box", style="bold"];
+"Riattivazione t2-nfs-ui" [label="64.Riattivazione t2-nfs-ui (Alberto)", shape="box", style="bold"];
+"Test t2-nfs-ui" [label="65.Test t2-nfs-ui (Federica)", shape="oval", style="bold"];
+"Riattivazione cld-storage-01" [label="70.Riattivazione cld-storage-01 (Massimo)", shape="oval", style="bold"];
+"Ricablaggio compute node Padova" [label="67.Ricablaggio compute node Padova (Matteo, Loris, Alberto)", shape="box", style="bold"];
+"Riattivazione blade1" [label="68.Riattivazione blade1 (SergioT)", shape="box", style="bold"];
+"Riattivazione cld-nat" [label="69.Riattivazione cld-nat (Alberto)", shape="box", style="bold"];
+"Riattivazione cld-config" [label="71.Riattivazione cld-config (Massimo)", shape="box", style="bold"];
+"Ricablaggio t2-cld-nat" [label="66.Ricablaggio t2-cld-nat (Alberto)", shape="box", style="bold"];
+"Riattivazione ceph-mon-01" [label="76.Riattivazione ceph-mon-01 (Massimo)", shape="box", style="bold"];
+"Riaccensione ceph-mon-02/03" [label="77.Riaccensione ceph-mon-02/03 (Massimo)", shape="box", style="bold"];
+"Riattivazione ceph-osd-*" [label="78.Riattivazione ceph-osd-* (SergioT, Massimo)", shape="box", style="bold"];
+"Riattivare ceph" [label="79.Riattivare ceph (Massimo)", shape="box", style="bold"];
+"Riaccendere cld-log" [label="80.Riaccendere cld-log (SergioT)", shape="box", style="bold"];
+"Ricablaggio cld-px*" [label="81.Ricablaggio cld-px* (Alberto)", shape="box", style="bold"];
+"Riattivazione cluster px" [label="82.Riattivazione cluster px (Alberto)", shape="box", style="bold"];
+"Riaccensione Percona" [label="83.Riaccensione Percona (Alberto)", shape="box", style="bold"];
+"Riaccensione altre VM cluster px" [label="84.Riaccensione altre VM cluster px (Alberto)", shape="box", style="bold"];
+"Ricablaggio cld-ctrl-0x" [label="85.Ricablaggio cld-ctrl-0x (SergioT)", shape="box", style="bold"];
+"Riattivazione cld-ctrl-0x" [label="86.Riattivazione cld-ctrl-0x (Massimo)", shape="box", style="bold"];
+"Riaccensione servizi OpenStack su cld-nl-*" [label="89.Riaccensione servizi OpenStack su cld-nl-* (SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Update a AlmaLinux9 delle cld-nl*" [label="72.Update a AlmaLinux9 delle cld-nl* SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Update a AlmaLinux9 delle cld-np* che non stanno su blade" [label="73.Update a AlmaLinux9 delle cld-np* che non stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
+"Update a AlmaLinux9 delle cld-np* che stanno su blade" [label="74.Update a AlmaLinux9 delle cld-np* che stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
+"Update a AlmaLinux9 delle cld-dfa*" [label="75.Update a AlmaLinux9 delle cld-dfa* (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
+"Riaccensione compute node Padova e relativi servizi" [label="92.Riaccensione compute node Padova e relativi servizi (Massimo)", shape="box", style="bold"];
+"Riaccensione servizi OpenStack su t2-cld-nat" [label="88.Riaccensione servizi OpenStack su t2-cld-nat (Massimo)", shape="box", style="bold"];
+
+"Abilitazione cld-nl-25..28" [label="90.Abilitazione cld-nl-25..28 (SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Dismissione vecchie cld-nl" [label="91.Dismissione vecchie cld-nl (SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Controllo servizi k8s e test" [label="94.Controllo servizi k8s e test (Lisa)", shape="box", style="bold"];
+"Test OpenStack" [label="93.Test OpenStack (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
+"Annuncio agli utenti che abbiamo finito" [label="98.Annuncio agli utenti che abbiamo finito (Massimo)", shape="box", style="bold"];
 "Birra" [shape="oval", style="bold"];
-"cld-db-* sopra aula A" [shape="oval", style="bold"];
-"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [shape="oval", style="bold"];
+"cld-db-* sopra aula A" [label="95.cld-db-* sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
+"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="oval", style="bold"];
 #
 #
 # Dipendenze
