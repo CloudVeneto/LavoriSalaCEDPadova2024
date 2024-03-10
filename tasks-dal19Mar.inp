@@ -81,7 +81,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Annuncio agli utenti che abbiamo finito" [label="98.Annuncio agli utenti che abbiamo finito (Massimo)", shape="box", style="bold"];
 "Birra" [shape="oval", style="bold"];
 "cld-db-* sopra aula A" [label="95.cld-db-* sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
-"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="oval", style="bold"];
+"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="box", style="bold"];
 "Riattivazione link Unipd" [label="101.Riattivazione link Unipd (Matteo, Loris)", shape="box", style="bold"];
 #
 #
@@ -179,6 +179,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Controllo servizi k8s e test" -> "Annuncio agli utenti che abbiamo finito"
 "Annuncio agli utenti che abbiamo finito" -> "Birra"
 "Riorganizzazione lame" -> "Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui"
+"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" -> "Spegnimento t2-nfs-ui"
 "Spostamento switches" -> "Riattivazione link Unipd"
 "Riattivazione link Unipd" -> "Riaccensione compute node Padova e relativi servizi"
 }
