@@ -8,7 +8,7 @@ digraph {
 "Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="bold"];
 "Migrazione a nuovo rabbit" [label="3.Migrazione a nuovo rabbit (Massimo)", shape="box", style="bold"];
 "Spegnimento OpenStack su compute-node e t2-cld-nat" [label="4.Spegnimento OpenStack su compute-node e t2-cld-nat (Massimo)", shape="box", style="bold"];
-"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (Massimo)", shape="box", style="bold"];
+"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", shape="box", style="bold"];
 "Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="bold"];
 "Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="bold"];
 "cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="bold"];
@@ -74,7 +74,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Riaccensione compute node Padova e relativi servizi" [label="92.Riaccensione compute node Padova e relativi servizi (Massimo)", shape="box", style="bold"];
 "Riaccensione servizi OpenStack su t2-cld-nat" [label="88.Riaccensione servizi OpenStack su t2-cld-nat (Massimo)", shape="box", style="bold"];
 
-"Abilitazione cld-nl-25..28" [label="90.Abilitazione cld-nl-25..28 (SergioF, Daniel, Davide)", shape="box", style="bold"];
+#"Abilitazione cld-nl-25..28" [label="90.Abilitazione cld-nl-25..28 (SergioF)", shape="box", style="bold"];
 "Dismissione vecchie cld-nl" [label="91.Dismissione vecchie cld-nl (SergioF, Daniel, Davide)", shape="box", style="bold"];
 "Controllo servizi k8s e test" [label="94.Controllo servizi k8s e test (Lisa)", shape="box", style="bold"];
 "Test OpenStack" [label="93.Test OpenStack (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
@@ -89,12 +89,10 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 #
 "Spegnimento di tutte le VM" -> "Migrazione a nuovo rabbit"
 "Migrazione a nuovo rabbit" -> "Spegnimento OpenStack su compute-node e t2-cld-nat"
-"Spegnimento OpenStack su compute-node e t2-cld-nat" -> "Spegnimento OpenStack sui controller node"
 "Spegnimento OpenStack sui controller node" -> "cld-storage-01: spegnimento e trasporto su piano basso"
 "Spegnimento OpenStack sui controller node" -> "Compute node Padova: spegnimento e trasposto su piano basso"
 "Spegnimento OpenStack sui controller node" -> "Riorganizzazione lame"
 "Spegnimento OpenStack sui controller node" -> "Migrazione DB a nuovo cluster percona"
-"Migrazione DB a nuovo cluster percona" -> "Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare"
 "Riorganizzazione lame" -> "Spegnimento blade2"
 "Migrazione DB a nuovo cluster percona" -> "Spegnimento cld-ctrl-0x e spostamento sul piano basso"
 "Riorganizzazione lame" -> "Spegnimento cld-ctrl-0x e spostamento sul piano basso"
@@ -112,7 +110,6 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Spegnimento cluster ceph" -> "Spegnimento cld-config"
 "Spegnimento cld-config" -> "Spostamento cld-config"
 "Spegnimento cld-config" -> "Spegnimento cld-nat"
-"Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" -> "Spegnimento cld-nat"
 "Spegnimento cld-nat" -> "Spostamento cld-nat"
 "Spegnimento cld-nat" -> "Spegnimento t2-nfs-ui" #Questa dipendenza e' solo per segnalare che questa e' una delle ultime da fare
 "Spegnimento t2-nfs-ui" -> "Spostamento switches"
@@ -160,16 +157,22 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Riattivazione cld-ctrl-0x" -> "Riaccensione servizi OpenStack su cld-nl-*"
 "Riattivazione cld-ctrl-0x" -> "Riaccensione servizi OpenStack su t2-cld-nat"
 "Update a AlmaLinux9 delle cld-nl*" -> "Riaccensione servizi OpenStack su cld-nl-*"
-"Riaccensione servizi OpenStack su cld-nl-*" -> "Abilitazione cld-nl-25..28"
-"Abilitazione cld-nl-25..28" -> "Dismissione vecchie cld-nl"
+#"Spegnimento OpenStack su compute-node e t2-cld-nat" -> "Abilitazione cld-nl-25..28"
+#"Riaccensione servizi OpenStack su cld-nl-*" -> "Abilitazione cld-nl-25..28"
+#"Abilitazione cld-nl-25..28" -> "Dismissione vecchie cld-nl"
+
+"Spegnimento OpenStack su compute-node e t2-cld-nat" -> "Dismissione vecchie cld-nl"
+"Dismissione vecchie cld-nl" -> "Spegnimento OpenStack sui controller node"
+
+"Spegnimento OpenStack su compute-node e t2-cld-nat" -> "Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" 
+"Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" -> "Spegnimento cld-nat"
+
 "Update a AlmaLinux9 delle cld-np* che non stanno su blade" -> "Riaccensione compute node Padova e relativi servizi"
 "Update a AlmaLinux9 delle cld-np* che stanno su blade" -> "Riaccensione compute node Padova e relativi servizi"
 "Update a AlmaLinux9 delle cld-dfa*" -> "Riaccensione compute node Padova e relativi servizi"
 "Riattivazione cld-ctrl-0x" -> "Riaccensione compute node Padova e relativi servizi"
 "Riaccensione compute node Padova e relativi servizi" -> "Test OpenStack"
-"Dismissione vecchie cld-nl" -> "Test OpenStack"
 "Riaccensione servizi OpenStack su t2-cld-nat" -> "Test OpenStack"
-"Dismissione vecchie cld-nl" -> "Controllo servizi k8s e test"
 "Riaccensione servizi OpenStack su t2-cld-nat" -> "Controllo servizi k8s e test"
 "Riaccensione compute node Padova e relativi servizi" -> "Controllo servizi k8s e test"
 "Riaccensione Percona" -> "cld-db-* sopra aula A"
