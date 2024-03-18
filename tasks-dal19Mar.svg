@@ -11,13 +11,13 @@
 <!-- Spegnimento di tutte le VM -->
 <g id="node1" class="node">
 <title>Spegnimento di tutte le VM</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1706.94,-2654 1410.94,-2654 1410.94,-2618 1706.94,-2618 1706.94,-2654"/>
+<polygon fill="green" stroke="green" points="1706.94,-2654 1410.94,-2654 1410.94,-2618 1706.94,-2618 1706.94,-2654"/>
 <text text-anchor="middle" x="1558.94" y="-2632.3" font-family="Times-Roman" font-size="14.00">2.Spegnimento di tutte le VM (Massimo)</text>
 </g>
 <!-- Migrazione a nuovo rabbit -->
 <g id="node2" class="node">
 <title>Migrazione a nuovo rabbit</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1702.44,-2582 1415.44,-2582 1415.44,-2546 1702.44,-2546 1702.44,-2582"/>
+<polygon fill="green" stroke="green" points="1702.44,-2582 1415.44,-2582 1415.44,-2546 1702.44,-2546 1702.44,-2582"/>
 <text text-anchor="middle" x="1558.94" y="-2560.3" font-family="Times-Roman" font-size="14.00">3.Migrazione a nuovo rabbit (Massimo)</text>
 </g>
 <!-- Spegnimento di tutte le VM&#45;&gt;Migrazione a nuovo rabbit -->
@@ -29,7 +29,7 @@
 <!-- Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat -->
 <g id="node3" class="node">
 <title>Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1803.44,-2510 1314.44,-2510 1314.44,-2474 1803.44,-2474 1803.44,-2510"/>
+<polygon fill="green" stroke="green" points="1803.44,-2510 1314.44,-2510 1314.44,-2474 1803.44,-2474 1803.44,-2510"/>
 <text text-anchor="middle" x="1558.94" y="-2488.3" font-family="Times-Roman" font-size="14.00">4.Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat (Massimo)</text>
 </g>
 <!-- Migrazione a nuovo rabbit&#45;&gt;Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat -->
