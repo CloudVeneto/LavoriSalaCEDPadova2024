@@ -5,10 +5,10 @@ digraph {
 ##"Spegnimento di tutte le VM" [shape="box", style="filled",color="green"];
 
 
-"Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="bold"];
-"Migrazione a nuovo rabbit" [label="3.Migrazione a nuovo rabbit (Massimo)", shape="box", style="bold"];
-"Spegnimento OpenStack su compute-node e t2-cld-nat" [label="4.Spegnimento OpenStack su compute-node e t2-cld-nat (Massimo)", shape="box", style="bold"];
-"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", shape="box", style="bold"];
+"Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="filled",color="green"];
+"Migrazione a nuovo rabbit" [label="3.Migrazione a nuovo rabbit (Massimo)", shape="box", style="filled",color="green"];
+"Spegnimento OpenStack su compute-node e t2-cld-nat" [label="4.Spegnimento OpenStack su compute-node e t2-cld-nat (Massimo)", shape="box", style="filled",color="green"];
+"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", style="filled",color="green"];
 "Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="bold"];
 "Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="bold"];
 "cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="bold"];
@@ -20,7 +20,7 @@ digraph {
 "Spegnimento blade2" [label="30.Spegnimento blade2 (SergioT)", shape="box", style="bold"];
 "Configurazione rete su blade2" [label="96.Configurazione rete su blade2 (SergioT)", shape="box", style="bold"];
 "blade2 sopra aula A" [label="97.blade2 sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
-"Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [label="99.Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare (SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [label="99.Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare (SergioF, Daniel, Davide)", style="filled",color="green"];
 "Spegnimento cld-ctrl-0x e spostamento sul piano basso" [label="31.Spegnimento cld-ctrl-0x e spostamento sul piano basso (Massimo, SergioT)", shape="box", style="bold"];
 "Spegnimento VM di servizio su cld-px"	[label="32.Spegnimento VM di servizio su cld-px (ALberto)", shape="box", style="bold"];
 "Spegnimento cld-px*" [label="34.Spegnimento cld-px* (Alberto)", shape="box", style="bold"];
@@ -75,7 +75,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Riaccensione servizi OpenStack su t2-cld-nat" [label="88.Riaccensione servizi OpenStack su t2-cld-nat (Massimo)", shape="box", style="bold"];
 
 #"Abilitazione cld-nl-25..28" [label="90.Abilitazione cld-nl-25..28 (SergioF)", shape="box", style="bold"];
-"Dismissione vecchie cld-nl" [label="91.Dismissione vecchie cld-nl (SergioF, Daniel, Davide)", shape="box", style="bold"];
+"Dismissione vecchie cld-nl" [label="91.Dismissione vecchie cld-nl (SergioF, Daniel, Davide)", style="filled",color="yellow"];
 "Controllo servizi k8s e test" [label="94.Controllo servizi k8s e test (Lisa)", shape="box", style="bold"];
 "Test OpenStack" [label="93.Test OpenStack (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
 "Annuncio agli utenti che abbiamo finito" [label="98.Annuncio agli utenti che abbiamo finito (Massimo)", shape="box", style="bold"];

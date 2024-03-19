@@ -11,86 +11,86 @@
 <!-- Spegnimento di tutte le VM -->
 <g id="node1" class="node">
 <title>Spegnimento di tutte le VM</title>
-<polygon fill="green" stroke="green" points="1706.94,-2654 1410.94,-2654 1410.94,-2618 1706.94,-2618 1706.94,-2654"/>
-<text text-anchor="middle" x="1558.94" y="-2632.3" font-family="Times-Roman" font-size="14.00">2.Spegnimento di tutte le VM (Massimo)</text>
+<polygon fill="green" stroke="green" points="1649.94,-2654 1353.94,-2654 1353.94,-2618 1649.94,-2618 1649.94,-2654"/>
+<text text-anchor="middle" x="1501.94" y="-2632.3" font-family="Times-Roman" font-size="14.00">2.Spegnimento di tutte le VM (Massimo)</text>
 </g>
 <!-- Migrazione a nuovo rabbit -->
 <g id="node2" class="node">
 <title>Migrazione a nuovo rabbit</title>
-<polygon fill="green" stroke="green" points="1702.44,-2582 1415.44,-2582 1415.44,-2546 1702.44,-2546 1702.44,-2582"/>
-<text text-anchor="middle" x="1558.94" y="-2560.3" font-family="Times-Roman" font-size="14.00">3.Migrazione a nuovo rabbit (Massimo)</text>
+<polygon fill="green" stroke="green" points="1645.44,-2582 1358.44,-2582 1358.44,-2546 1645.44,-2546 1645.44,-2582"/>
+<text text-anchor="middle" x="1501.94" y="-2560.3" font-family="Times-Roman" font-size="14.00">3.Migrazione a nuovo rabbit (Massimo)</text>
 </g>
 <!-- Spegnimento di tutte le VM&#45;&gt;Migrazione a nuovo rabbit -->
 <g id="edge1" class="edge">
 <title>Spegnimento di tutte le VM&#45;&gt;Migrazione a nuovo rabbit</title>
-<path fill="none" stroke="black" d="M1558.94,-2617.7C1558.94,-2609.98 1558.94,-2600.71 1558.94,-2592.11"/>
-<polygon fill="black" stroke="black" points="1562.44,-2592.1 1558.94,-2582.1 1555.44,-2592.1 1562.44,-2592.1"/>
+<path fill="none" stroke="black" d="M1501.94,-2617.7C1501.94,-2609.98 1501.94,-2600.71 1501.94,-2592.11"/>
+<polygon fill="black" stroke="black" points="1505.44,-2592.1 1501.94,-2582.1 1498.44,-2592.1 1505.44,-2592.1"/>
 </g>
 <!-- Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat -->
 <g id="node3" class="node">
 <title>Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat</title>
-<polygon fill="green" stroke="green" points="1803.44,-2510 1314.44,-2510 1314.44,-2474 1803.44,-2474 1803.44,-2510"/>
-<text text-anchor="middle" x="1558.94" y="-2488.3" font-family="Times-Roman" font-size="14.00">4.Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat (Massimo)</text>
+<polygon fill="green" stroke="green" points="1746.44,-2510 1257.44,-2510 1257.44,-2474 1746.44,-2474 1746.44,-2510"/>
+<text text-anchor="middle" x="1501.94" y="-2488.3" font-family="Times-Roman" font-size="14.00">4.Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat (Massimo)</text>
 </g>
 <!-- Migrazione a nuovo rabbit&#45;&gt;Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat -->
 <g id="edge2" class="edge">
 <title>Migrazione a nuovo rabbit&#45;&gt;Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat</title>
-<path fill="none" stroke="black" d="M1558.94,-2545.7C1558.94,-2537.98 1558.94,-2528.71 1558.94,-2520.11"/>
-<polygon fill="black" stroke="black" points="1562.44,-2520.1 1558.94,-2510.1 1555.44,-2520.1 1562.44,-2520.1"/>
+<path fill="none" stroke="black" d="M1501.94,-2545.7C1501.94,-2537.98 1501.94,-2528.71 1501.94,-2520.11"/>
+<polygon fill="black" stroke="black" points="1505.44,-2520.1 1501.94,-2510.1 1498.44,-2520.1 1505.44,-2520.1"/>
 </g>
 <!-- Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare -->
 <g id="node12" class="node">
 <title>Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2151.44,-2366 1522.44,-2366 1522.44,-2330 2151.44,-2330 2151.44,-2366"/>
-<text text-anchor="middle" x="1836.94" y="-2344.3" font-family="Times-Roman" font-size="14.00">99.Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare (SergioF, Daniel, Davide)</text>
+<ellipse fill="green" stroke="green" cx="1846.94" cy="-2348" rx="408.63" ry="18"/>
+<text text-anchor="middle" x="1846.94" y="-2344.3" font-family="Times-Roman" font-size="14.00">99.Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare (SergioF, Daniel, Davide)</text>
 </g>
 <!-- Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat&#45;&gt;Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare -->
 <g id="edge73" class="edge">
 <title>Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat&#45;&gt;Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare</title>
-<path fill="none" stroke="black" d="M1592.47,-2473.87C1642.98,-2448.07 1738.57,-2399.25 1794.07,-2370.9"/>
-<polygon fill="black" stroke="black" points="1795.97,-2373.86 1803.29,-2366.19 1792.79,-2367.62 1795.97,-2373.86"/>
+<path fill="none" stroke="black" d="M1543.55,-2473.87C1607.06,-2447.73 1727.97,-2397.97 1796.41,-2369.8"/>
+<polygon fill="black" stroke="black" points="1797.8,-2373.01 1805.71,-2365.97 1795.13,-2366.54 1797.8,-2373.01"/>
 </g>
 <!-- Dismissione vecchie cld&#45;nl -->
 <g id="node57" class="node">
 <title>Dismissione vecchie cld&#45;nl</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1644.94,-2438 1246.94,-2438 1246.94,-2402 1644.94,-2402 1644.94,-2438"/>
-<text text-anchor="middle" x="1445.94" y="-2416.3" font-family="Times-Roman" font-size="14.00">91.Dismissione vecchie cld&#45;nl (SergioF, Daniel, Davide)</text>
+<ellipse fill="yellow" stroke="yellow" cx="1358.94" cy="-2420" rx="258.85" ry="18"/>
+<text text-anchor="middle" x="1358.94" y="-2416.3" font-family="Times-Roman" font-size="14.00">91.Dismissione vecchie cld&#45;nl (SergioF, Daniel, Davide)</text>
 </g>
 <!-- Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat&#45;&gt;Dismissione vecchie cld&#45;nl -->
 <g id="edge71" class="edge">
 <title>Spegnimento OpenStack su compute&#45;node e t2&#45;cld&#45;nat&#45;&gt;Dismissione vecchie cld&#45;nl</title>
-<path fill="none" stroke="black" d="M1531.3,-2473.88C1516.52,-2464.72 1498.15,-2453.34 1482.24,-2443.48"/>
-<polygon fill="black" stroke="black" points="1484.03,-2440.48 1473.69,-2438.19 1480.35,-2446.43 1484.03,-2440.48"/>
+<path fill="none" stroke="black" d="M1466.96,-2473.88C1447.6,-2464.4 1423.35,-2452.53 1402.74,-2442.44"/>
+<polygon fill="black" stroke="black" points="1404.08,-2439.2 1393.56,-2437.95 1401,-2445.49 1404.08,-2439.2"/>
 </g>
 <!-- Spegnimento OpenStack sui controller node -->
 <g id="node4" class="node">
 <title>Spegnimento OpenStack sui controller node</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1494.44,-2366 1091.44,-2366 1091.44,-2330 1494.44,-2330 1494.44,-2366"/>
-<text text-anchor="middle" x="1292.94" y="-2344.3" font-family="Times-Roman" font-size="14.00">5.Spegnimento OpenStack sui controller node (SergioF)</text>
+<ellipse fill="green" stroke="green" cx="1157.94" cy="-2348" rx="261.85" ry="18"/>
+<text text-anchor="middle" x="1157.94" y="-2344.3" font-family="Times-Roman" font-size="14.00">5.Spegnimento OpenStack sui controller node (SergioF)</text>
 </g>
 <!-- Riorganizzazione lame -->
 <g id="node5" class="node">
 <title>Riorganizzazione lame</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1423.44,-2294 1162.44,-2294 1162.44,-2258 1423.44,-2258 1423.44,-2294"/>
-<text text-anchor="middle" x="1292.94" y="-2272.3" font-family="Times-Roman" font-size="14.00">28.Riorganizzazione lame (SergioT)</text>
+<polygon fill="none" stroke="black" stroke-width="2" points="1331.44,-2294 1070.44,-2294 1070.44,-2258 1331.44,-2258 1331.44,-2294"/>
+<text text-anchor="middle" x="1200.94" y="-2272.3" font-family="Times-Roman" font-size="14.00">28.Riorganizzazione lame (SergioT)</text>
 </g>
 <!-- Spegnimento OpenStack sui controller node&#45;&gt;Riorganizzazione lame -->
 <g id="edge5" class="edge">
 <title>Spegnimento OpenStack sui controller node&#45;&gt;Riorganizzazione lame</title>
-<path fill="none" stroke="black" d="M1292.94,-2329.7C1292.94,-2321.98 1292.94,-2312.71 1292.94,-2304.11"/>
-<polygon fill="black" stroke="black" points="1296.44,-2304.1 1292.94,-2294.1 1289.44,-2304.1 1296.44,-2304.1"/>
+<path fill="none" stroke="black" d="M1168.57,-2329.7C1173.57,-2321.56 1179.63,-2311.69 1185.15,-2302.7"/>
+<polygon fill="black" stroke="black" points="1188.18,-2304.46 1190.43,-2294.1 1182.21,-2300.79 1188.18,-2304.46"/>
 </g>
 <!-- Migrazione DB a nuovo cluster percona -->
 <g id="node6" class="node">
 <title>Migrazione DB a nuovo cluster percona</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1818.44,-2294 1441.44,-2294 1441.44,-2258 1818.44,-2258 1818.44,-2294"/>
-<text text-anchor="middle" x="1629.94" y="-2272.3" font-family="Times-Roman" font-size="14.00">29.Migrazione DB a nuovo cluster percona (Alberto)</text>
+<polygon fill="none" stroke="black" stroke-width="2" points="1787.44,-2294 1410.44,-2294 1410.44,-2258 1787.44,-2258 1787.44,-2294"/>
+<text text-anchor="middle" x="1598.94" y="-2272.3" font-family="Times-Roman" font-size="14.00">29.Migrazione DB a nuovo cluster percona (Alberto)</text>
 </g>
 <!-- Spegnimento OpenStack sui controller node&#45;&gt;Migrazione DB a nuovo cluster percona -->
 <g id="edge6" class="edge">
 <title>Spegnimento OpenStack sui controller node&#45;&gt;Migrazione DB a nuovo cluster percona</title>
-<path fill="none" stroke="black" d="M1374.95,-2329.97C1424.17,-2319.74 1486.91,-2306.71 1537.83,-2296.13"/>
-<polygon fill="black" stroke="black" points="1538.78,-2299.51 1547.85,-2294.05 1537.35,-2292.66 1538.78,-2299.51"/>
+<path fill="none" stroke="black" d="M1256.91,-2331.29C1323.47,-2320.73 1411.52,-2306.75 1481.61,-2295.62"/>
+<polygon fill="black" stroke="black" points="1482.49,-2299.03 1491.82,-2294 1481.39,-2292.11 1482.49,-2299.03"/>
 </g>
 <!-- cld&#45;storage&#45;01: spegnimento e trasporto su piano basso -->
 <g id="node7" class="node">
@@ -101,8 +101,8 @@
 <!-- Spegnimento OpenStack sui controller node&#45;&gt;cld&#45;storage&#45;01: spegnimento e trasporto su piano basso -->
 <g id="edge3" class="edge">
 <title>Spegnimento OpenStack sui controller node&#45;&gt;cld&#45;storage&#45;01: spegnimento e trasporto su piano basso</title>
-<path fill="none" stroke="black" d="M1147.69,-2329.98C1098.97,-2321.92 1044.87,-2310.35 996.94,-2294 891.73,-2258.11 778.34,-2190.78 722.73,-2155.65"/>
-<polygon fill="black" stroke="black" points="724.3,-2152.5 713.99,-2150.09 720.55,-2158.41 724.3,-2152.5"/>
+<path fill="none" stroke="black" d="M1099.73,-2330.34C1068.76,-2320.85 1030.29,-2308.07 996.94,-2294 895.89,-2251.38 782.99,-2188.37 725.7,-2155.24"/>
+<polygon fill="black" stroke="black" points="727.4,-2152.18 717,-2150.18 723.89,-2158.23 727.4,-2152.18"/>
 </g>
 <!-- Compute node Padova: spegnimento e trasposto su piano basso -->
 <g id="node8" class="node">
@@ -117,7 +117,7 @@
 <!-- Spegnimento OpenStack sui controller node&#45;&gt;Compute node Padova: spegnimento e trasposto su piano basso -->
 <g id="edge4" class="edge">
 <title>Spegnimento OpenStack sui controller node&#45;&gt;Compute node Padova: spegnimento e trasposto su piano basso</title>
-<path fill="none" stroke="black" d="M1157.31,-2329.96C1085.06,-2312.44 1010.94,-2276.94 1010.94,-2205 1010.94,-2205 1010.94,-2205 1010.94,-2131 1010.94,-2092.18 1021.23,-2050.69 1033.07,-2015.81"/>
+<path fill="none" stroke="black" d="M1115.39,-2330.13C1097.07,-2321.36 1076.36,-2309.24 1060.94,-2294 1028.67,-2262.11 1010.94,-2250.37 1010.94,-2205 1010.94,-2205 1010.94,-2205 1010.94,-2131 1010.94,-2092.18 1021.23,-2050.69 1033.07,-2015.81"/>
 <polygon fill="black" stroke="black" points="1036.44,-2016.75 1036.44,-2006.16 1029.84,-2014.45 1036.44,-2016.75"/>
 </g>
 <!-- Spegnimento blade2 -->
@@ -129,8 +129,8 @@
 <!-- Riorganizzazione lame&#45;&gt;Spegnimento blade2 -->
 <g id="edge7" class="edge">
 <title>Riorganizzazione lame&#45;&gt;Spegnimento blade2</title>
-<path fill="none" stroke="black" d="M1261.38,-2257.88C1244.28,-2248.6 1222.96,-2237.03 1204.62,-2227.08"/>
-<polygon fill="black" stroke="black" points="1206.08,-2223.88 1195.62,-2222.19 1202.74,-2230.04 1206.08,-2223.88"/>
+<path fill="none" stroke="black" d="M1191.79,-2257.7C1187.54,-2249.64 1182.38,-2239.89 1177.67,-2230.98"/>
+<polygon fill="black" stroke="black" points="1180.75,-2229.31 1172.98,-2222.1 1174.56,-2232.58 1180.75,-2229.31"/>
 </g>
 <!-- Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso -->
 <g id="node13" class="node">
@@ -141,8 +141,8 @@
 <!-- Riorganizzazione lame&#45;&gt;Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso -->
 <g id="edge9" class="edge">
 <title>Riorganizzazione lame&#45;&gt;Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso</title>
-<path fill="none" stroke="black" d="M1423.7,-2258.91C1426.81,-2258.59 1429.89,-2258.29 1432.94,-2258 1587.6,-2243.23 1760.31,-2230.87 1902.06,-2221.81"/>
-<polygon fill="black" stroke="black" points="1902.45,-2225.29 1912.21,-2221.16 1902.01,-2218.31 1902.45,-2225.29"/>
+<path fill="none" stroke="black" d="M1331.47,-2263.62C1354.92,-2261.68 1379.15,-2259.73 1401.94,-2258 1571.02,-2245.19 1760.54,-2232.45 1911.78,-2222.67"/>
+<polygon fill="black" stroke="black" points="1912.39,-2226.14 1922.15,-2222.01 1911.94,-2219.16 1912.39,-2226.14"/>
 </g>
 <!-- Avvisare gli utenti CMS dell&#39;imminente down di t2&#45;nfs&#45;ui -->
 <g id="node63" class="node">
@@ -153,14 +153,14 @@
 <!-- Riorganizzazione lame&#45;&gt;Avvisare gli utenti CMS dell&#39;imminente down di t2&#45;nfs&#45;ui -->
 <g id="edge89" class="edge">
 <title>Riorganizzazione lame&#45;&gt;Avvisare gli utenti CMS dell&#39;imminente down di t2&#45;nfs&#45;ui</title>
-<path fill="none" stroke="black" d="M1358.64,-2257.97C1397.43,-2247.91 1446.7,-2235.14 1487.13,-2224.65"/>
-<polygon fill="black" stroke="black" points="1488.14,-2228.01 1496.94,-2222.11 1486.38,-2221.23 1488.14,-2228.01"/>
+<path fill="none" stroke="black" d="M1289.03,-2257.97C1342.13,-2247.7 1409.86,-2234.6 1464.68,-2224"/>
+<polygon fill="black" stroke="black" points="1465.61,-2227.39 1474.77,-2222.05 1464.28,-2220.51 1465.61,-2227.39"/>
 </g>
 <!-- Migrazione DB a nuovo cluster percona&#45;&gt;Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso -->
 <g id="edge8" class="edge">
 <title>Migrazione DB a nuovo cluster percona&#45;&gt;Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso</title>
-<path fill="none" stroke="black" d="M1767.19,-2257.97C1851.71,-2247.47 1960.05,-2234.03 2046.41,-2223.31"/>
-<polygon fill="black" stroke="black" points="2047.07,-2226.76 2056.56,-2222.05 2046.21,-2219.81 2047.07,-2226.76"/>
+<path fill="none" stroke="black" d="M1743.73,-2257.97C1833.17,-2247.44 1947.87,-2233.95 2039.11,-2223.21"/>
+<polygon fill="black" stroke="black" points="2039.75,-2226.66 2049.27,-2222.02 2038.93,-2219.71 2039.75,-2226.66"/>
 </g>
 <!-- Riattivazione cld&#45;storage&#45;01 -->
 <g id="node33" class="node">
@@ -219,7 +219,7 @@
 <!-- Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare&#45;&gt;Spegnimento cld&#45;nat -->
 <g id="edge74" class="edge">
 <title>Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare&#45;&gt;Spegnimento cld&#45;nat</title>
-<path fill="none" stroke="black" d="M1838.91,-2329.98C1841.83,-2303.36 1846.94,-2250.23 1846.94,-2205 1846.94,-2205 1846.94,-2205 1846.94,-1931.5 1846.94,-1798.29 1704.5,-1690.41 1634.65,-1645.52"/>
+<path fill="none" stroke="black" d="M1846.94,-2329.95C1846.94,-2303.29 1846.94,-2250.11 1846.94,-2205 1846.94,-2205 1846.94,-2205 1846.94,-1931.5 1846.94,-1798.29 1704.5,-1690.41 1634.65,-1645.52"/>
 <polygon fill="black" stroke="black" points="1636.43,-1642.5 1626.11,-1640.11 1632.68,-1648.41 1636.43,-1642.5"/>
 </g>
 <!-- Spegnimento VM di servizio su cld&#45;px -->
@@ -911,8 +911,8 @@
 <!-- Dismissione vecchie cld&#45;nl&#45;&gt;Spegnimento OpenStack sui controller node -->
 <g id="edge72" class="edge">
 <title>Dismissione vecchie cld&#45;nl&#45;&gt;Spegnimento OpenStack sui controller node</title>
-<path fill="none" stroke="black" d="M1408.51,-2401.88C1387.69,-2392.35 1361.58,-2380.41 1339.46,-2370.28"/>
-<polygon fill="black" stroke="black" points="1340.79,-2367.05 1330.24,-2366.07 1337.88,-2373.41 1340.79,-2367.05"/>
+<path fill="none" stroke="black" d="M1310.79,-2402.23C1282.18,-2392.27 1245.72,-2379.57 1215.58,-2369.08"/>
+<polygon fill="black" stroke="black" points="1216.63,-2365.73 1206.04,-2365.75 1214.33,-2372.35 1216.63,-2365.73"/>
 </g>
 <!-- Annuncio agli utenti che abbiamo finito -->
 <g id="node60" class="node">
