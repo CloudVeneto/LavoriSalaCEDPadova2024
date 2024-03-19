@@ -95,7 +95,7 @@
 </g>
 <!-- Migrazione DB a nuovo cluster percona -->
 <g id="node6" class="node"><title>Migrazione DB a nuovo cluster percona</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2702.25,-2224 2399.75,-2224 2399.75,-2188 2702.25,-2188 2702.25,-2224"/>
+<polygon fill="green" stroke="green" points="2702.25,-2224 2399.75,-2224 2399.75,-2188 2702.25,-2188 2702.25,-2224"/>
 <text text-anchor="middle" x="2551" y="-2202.3" font-family="Times,serif" font-size="14.00">29.Migrazione DB a nuovo cluster percona (Alberto)</text>
 </g>
 <!-- Spegnimento OpenStack sui controller node&#45;&gt;Migrazione DB a nuovo cluster percona -->
@@ -115,7 +115,7 @@
 </g>
 <!-- Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso -->
 <g id="node13" class="node"><title>Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2807,-2152 2359,-2152 2359,-2116 2807,-2116 2807,-2152"/>
+<polygon fill="green" stroke="green" points="2807,-2152 2359,-2152 2359,-2116 2807,-2116 2807,-2152"/>
 <text text-anchor="middle" x="2583" y="-2130.3" font-family="Times,serif" font-size="14.00">31.Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso (Massimo, SergioT)</text>
 </g>
 <!-- Riorganizzazione lame&#45;&gt;Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso -->
@@ -190,7 +190,7 @@
 </g>
 <!-- Spegnimento VM di servizio su cld&#45;px -->
 <g id="node14" class="node"><title>Spegnimento VM di servizio su cld&#45;px</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2085,-2080 1781,-2080 1781,-2044 2085,-2044 2085,-2080"/>
+<polygon fill="green" stroke="green" points="2085,-2080 1781,-2080 1781,-2044 2085,-2044 2085,-2080"/>
 <text text-anchor="middle" x="1933" y="-2058.3" font-family="Times,serif" font-size="14.00">32.Spegnimento VM di servizio su cld&#45;px (ALberto)</text>
 </g>
 <!-- Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso&#45;&gt;Spegnimento VM di servizio su cld&#45;px -->
@@ -210,7 +210,7 @@
 </g>
 <!-- Spegnimento cld&#45;log -->
 <g id="node16" class="node"><title>Spegnimento cld&#45;log</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1863,-2008 1661,-2008 1661,-1972 1863,-1972 1863,-2008"/>
+<polygon fill="green" stroke="green" points="1863,-2008 1661,-2008 1661,-1972 1863,-1972 1863,-2008"/>
 <text text-anchor="middle" x="1762" y="-1986.3" font-family="Times,serif" font-size="14.00">33.Spegnimento cld&#45;log (SergioT)</text>
 </g>
 <!-- Spegnimento VM di servizio su cld&#45;px&#45;&gt;Spegnimento cld&#45;log -->
@@ -220,7 +220,7 @@
 </g>
 <!-- Spegnimento cld&#45;px* -->
 <g id="node15" class="node"><title>Spegnimento cld&#45;px*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2084.25,-2008 1881.75,-2008 1881.75,-1972 2084.25,-1972 2084.25,-2008"/>
+<polygon fill="green" stroke="green" points="2084.25,-2008 1881.75,-2008 1881.75,-1972 2084.25,-1972 2084.25,-2008"/>
 <text text-anchor="middle" x="1983" y="-1986.3" font-family="Times,serif" font-size="14.00">34.Spegnimento cld&#45;px* (Alberto)</text>
 </g>
 <!-- Spegnimento VM di servizio su cld&#45;px&#45;&gt;Spegnimento cld&#45;px* -->
@@ -244,7 +244,7 @@
 </g>
 <!-- Spegnimento cluster ceph -->
 <g id="node17" class="node"><title>Spegnimento cluster ceph</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1883,-1880 1645,-1880 1645,-1844 1883,-1844 1883,-1880"/>
+<polygon fill="green" stroke="green" points="1883,-1880 1645,-1880 1645,-1844 1883,-1844 1883,-1880"/>
 <text text-anchor="middle" x="1764" y="-1858.3" font-family="Times,serif" font-size="14.00">40.Spegnimento cluster ceph (Massimo)</text>
 </g>
 <!-- Spegnimento cld&#45;px*&#45;&gt;Spegnimento cluster ceph -->
@@ -293,7 +293,7 @@
 </g>
 <!-- Spegnimento cld&#45;config -->
 <g id="node22" class="node"><title>Spegnimento cld&#45;config</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1851.25,-1696 1624.75,-1696 1624.75,-1660 1851.25,-1660 1851.25,-1696"/>
+<polygon fill="green" stroke="green" points="1851.25,-1696 1624.75,-1696 1624.75,-1660 1851.25,-1660 1851.25,-1696"/>
 <text text-anchor="middle" x="1738" y="-1674.3" font-family="Times,serif" font-size="14.00">58.Spegnimento cld&#45;config (Massimo)</text>
 </g>
 <!-- Spegnimento cluster ceph&#45;&gt;Spegnimento cld&#45;config -->

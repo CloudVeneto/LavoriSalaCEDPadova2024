@@ -10,7 +10,7 @@ digraph {
 "Spegnimento OpenStack su compute-node e t2-cld-nat" [label="4.Spegnimento OpenStack su compute-node e t2-cld-nat (Massimo)", shape="box", style="filled",color="green"];
 "Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", shape="box", style="filled",color="green"];
 "Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="filled",color="green"];
-"Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="bold"];
+"Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="filled",color="green"];
 "cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="filled",color="green"];
 "Compute node Padova: spegnimento e trasposto su piano basso" [label="7.Compute node Padova: spegnimento e trasposto su piano basso \n
  Massimo, Marco: cld-np-gpu-01, cld-np-21, cld-dfa-05, cld-dfa-gpu-02, cld-elx-01..04, \n
@@ -21,11 +21,11 @@ digraph {
 "Configurazione rete su blade2" [label="96.Configurazione rete su blade2 (SergioT)", shape="box", style="bold"];
 "blade2 sopra aula A" [label="97.blade2 sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
 "Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [label="99.Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare (SergioF, Daniel, Davide)", style="filled",color="green"];
-"Spegnimento cld-ctrl-0x e spostamento sul piano basso" [label="31.Spegnimento cld-ctrl-0x e spostamento sul piano basso (Massimo, SergioT)", shape="box", style="bold"];
-"Spegnimento VM di servizio su cld-px"	[label="32.Spegnimento VM di servizio su cld-px (ALberto)", shape="box", style="bold"];
-"Spegnimento cld-px*" [label="34.Spegnimento cld-px* (Alberto)", shape="box", style="bold"];
-"Spegnimento cld-log" [label="33.Spegnimento cld-log (SergioT)", shape="box", style="bold"];
-"Spegnimento cluster ceph" [label="40.Spegnimento cluster ceph (Massimo)", shape="box", style="bold"];
+"Spegnimento cld-ctrl-0x e spostamento sul piano basso" [label="31.Spegnimento cld-ctrl-0x e spostamento sul piano basso (Massimo, SergioT)", shape="box", style="filled",color="green"];
+"Spegnimento VM di servizio su cld-px"	[label="32.Spegnimento VM di servizio su cld-px (ALberto)", shape="box", style="filled",color="green"];
+"Spegnimento cld-px*" [label="34.Spegnimento cld-px* (Alberto)", shape="box", style="filled",color="green"];
+"Spegnimento cld-log" [label="33.Spegnimento cld-log (SergioT)", shape="box", style="filled",color="green"];
+"Spegnimento cluster ceph" [label="40.Spegnimento cluster ceph (Massimo)", shape="box", style="filled",color="green"];
 "Spegnimento blade1" [label="41.Spegnimento blade1 (SergioT)", shape="box", style="bold"];
 "Spostamento cld-px* su piano basso" [label="35.Spostamento cld-px* su piano basso\n
 Matteo, Lisa: cld-px-06\n
@@ -38,7 +38,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
  Loris, Federica: ceph-osd-04m ceph-osd-08, ceph-osd-12\n
  Rita, PaoloA, Antonino: ceph-osd-05, ceph-osd-09",shape="box", style="bold"];
 "Spostamento ceph-mon-01" [label="43.Spostamento ceph-mon-01 (Rita, PaoloA, Antonino)",shape="box", style="bold"];
-"Spegnimento cld-config" [label="58.Spegnimento cld-config (Massimo)", shape="box", style="bold"];
+"Spegnimento cld-config" [label="58.Spegnimento cld-config (Massimo)", shape="box", style="filled",color="green"];
 "Spegnimento cld-nat" [label="60.Spegnimento cld-nat (SergioT)", shape="box", style="bold"];
 "Spegnimento t2-nfs-ui" [label="56.Spegnimento t2-nfs-ui (Massimo)", shape="box", style="bold"];
 "Spostamento switches" [label="62.Spostamento switches (SergioT, Matteo, Alberto)", shape="square", style="bold"];
