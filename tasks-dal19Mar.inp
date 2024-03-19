@@ -8,16 +8,16 @@ digraph {
 "Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="filled",color="green"];
 "Migrazione a nuovo rabbit" [label="3.Migrazione a nuovo rabbit (Massimo)", shape="box", style="filled",color="green"];
 "Spegnimento OpenStack su compute-node e t2-cld-nat" [label="4.Spegnimento OpenStack su compute-node e t2-cld-nat (Massimo)", shape="box", style="filled",color="green"];
-"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", style="filled",color="green"];
-"Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="bold"];
+"Spegnimento OpenStack sui controller node" [label="5.Spegnimento OpenStack sui controller node (SergioF)", shape="box", style="filled",color="green"];
+"Riorganizzazione lame" [label="28.Riorganizzazione lame (SergioT)", shape="box", style="filled",color="green"];
 "Migrazione DB a nuovo cluster percona" [label="29.Migrazione DB a nuovo cluster percona (Alberto)", shape="box", style="bold"];
-"cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="bold"];
+"cld-storage-01: spegnimento e trasporto su piano basso" [label="6.cld-storage-01: spegnimento e trasporto su piano basso (Rita, PaoloA, Antonino)", shape="box", style="filled",color="green"];
 "Compute node Padova: spegnimento e trasposto su piano basso" [label="7.Compute node Padova: spegnimento e trasposto su piano basso \n
  Massimo, Marco: cld-np-gpu-01, cld-np-21, cld-dfa-05, cld-dfa-gpu-02, cld-elx-01..04, \n
  Matteo, Lisa: cld-np-gpu-02, cld-np-22, cld-dfa-06, cld-dfa-gpu-03, cld-uni-01..04\n
  Loris, Federica: cld-np-gpu-03, cld-np-23, cld-dfa-07, cld-dfa-gpu-04, cld-uni-05..08\n
- Rita, PaoloA, Antonino: cld-np-20, cld-dfa-01..04, cld-dfa-gpu-01, cld-dfa-gpu-05, cld-uni-09..12", shape="box", style="bold"];
-"Spegnimento blade2" [label="30.Spegnimento blade2 (SergioT)", shape="box", style="bold"];
+ Rita, PaoloA, Antonino: cld-np-20, cld-dfa-01..04, cld-dfa-gpu-01, cld-dfa-gpu-05, cld-uni-09..12", shape="box", style="filled",color="green"];
+"Spegnimento blade2" [label="30.Spegnimento blade2 (SergioT)", shape="box", style="filled",color="green"];
 "Configurazione rete su blade2" [label="96.Configurazione rete su blade2 (SergioT)", shape="box", style="bold"];
 "blade2 sopra aula A" [label="97.blade2 sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
 "Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare" [label="99.Spostare la /var/lib/nova/instances dei cld-nl* da aggiornare (SergioF, Daniel, Davide)", style="filled",color="green"];
@@ -81,7 +81,7 @@ SergioT, Marco: cld-px-10", shape="box", style="bold"];
 "Annuncio agli utenti che abbiamo finito" [label="98.Annuncio agli utenti che abbiamo finito (Massimo)", shape="box", style="bold"];
 "Birra" [shape="oval", style="bold"];
 "cld-db-* sopra aula A" [label="95.cld-db-* sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
-"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="box", style="bold"];
+"Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="box", style="filled",color="green"];
 "Riattivazione link Unipd" [label="101.Riattivazione link Unipd (Matteo, Loris)", shape="box", style="bold"];
 #
 #
