@@ -180,7 +180,7 @@
 </g>
 <!-- Spegnimento cld&#45;nat -->
 <g id="node23" class="node"><title>Spegnimento cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1700.25,-1568 1499.75,-1568 1499.75,-1532 1700.25,-1532 1700.25,-1568"/>
+<polygon fill="green" stroke="green" points="1700.25,-1568 1499.75,-1568 1499.75,-1532 1700.25,-1532 1700.25,-1568"/>
 <text text-anchor="middle" x="1600" y="-1546.3" font-family="Times,serif" font-size="14.00">60.Spegnimento cld&#45;nat (SergioT)</text>
 </g>
 <!-- Spostare la /var/lib/nova/instances dei cld&#45;nl* da aggiornare&#45;&gt;Spegnimento cld&#45;nat -->
@@ -230,7 +230,7 @@
 </g>
 <!-- Spostamento cld&#45;px* su piano basso -->
 <g id="node19" class="node"><title>Spostamento cld&#45;px* su piano basso</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2579.25,-1495.5 2348.75,-1495.5 2348.75,-1348.5 2579.25,-1348.5 2579.25,-1495.5"/>
+<polygon fill="green" stroke="green" points="2579.25,-1495.5 2348.75,-1495.5 2348.75,-1348.5 2579.25,-1348.5 2579.25,-1495.5"/>
 <text text-anchor="middle" x="2464" y="-1480.3" font-family="Times,serif" font-size="14.00">35.Spostamento cld&#45;px* su piano basso</text>
 <text text-anchor="middle" x="2464" y="-1449.3" font-family="Times,serif" font-size="14.00">Matteo, Lisa: cld&#45;px&#45;06</text>
 <text text-anchor="middle" x="2464" y="-1418.3" font-family="Times,serif" font-size="14.00">Loris, Federica: cld&#45;px&#45;08</text>
@@ -259,7 +259,7 @@
 </g>
 <!-- Spegnimento blade1 -->
 <g id="node18" class="node"><title>Spegnimento blade1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1452,-1696 1252,-1696 1252,-1660 1452,-1660 1452,-1696"/>
+<polygon fill="green" stroke="green" points="1452,-1696 1252,-1696 1252,-1660 1452,-1660 1452,-1696"/>
 <text text-anchor="middle" x="1352" y="-1674.3" font-family="Times,serif" font-size="14.00">41.Spegnimento blade1 (SergioT)</text>
 </g>
 <!-- Spegnimento cluster ceph&#45;&gt;Spegnimento blade1 -->
@@ -269,7 +269,7 @@
 </g>
 <!-- Spostamento ceph&#45;mon&#45;01 -->
 <g id="node21" class="node"><title>Spostamento ceph&#45;mon&#45;01</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2041.25,-1568 1718.75,-1568 1718.75,-1532 2041.25,-1532 2041.25,-1568"/>
+<polygon fill="green" stroke="green" points="2041.25,-1568 1718.75,-1568 1718.75,-1532 2041.25,-1532 2041.25,-1568"/>
 <text text-anchor="middle" x="1880" y="-1546.3" font-family="Times,serif" font-size="14.00">43.Spostamento ceph&#45;mon&#45;01 (Rita, PaoloA, Antonino)</text>
 </g>
 <!-- Spegnimento cluster ceph&#45;&gt;Spostamento ceph&#45;mon&#45;01 -->
@@ -279,7 +279,7 @@
 </g>
 <!-- Spostamento ceph&#45;osd&#45;* -->
 <g id="node20" class="node"><title>Spostamento ceph&#45;osd&#45;*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2436,-1751.5 2098,-1751.5 2098,-1604.5 2436,-1604.5 2436,-1751.5"/>
+<polygon fill="green" stroke="green" points="2436,-1751.5 2098,-1751.5 2098,-1604.5 2436,-1604.5 2436,-1751.5"/>
 <text text-anchor="middle" x="2267" y="-1736.3" font-family="Times,serif" font-size="14.00">44.Spostamento ceph&#45;osd&#45;*</text>
 <text text-anchor="middle" x="2267" y="-1705.3" font-family="Times,serif" font-size="14.00"> Massimo, Marco: ceph&#45;osd&#45;02, ceph&#45;osd&#45;06, ceph&#45;osd&#45;10</text>
 <text text-anchor="middle" x="2267" y="-1674.3" font-family="Times,serif" font-size="14.00"> Matteo, Lisa: ceph&#45;osd&#45;03, ceph&#45;osd&#45;07, ceph&#45;osd&#45;11</text>
@@ -303,7 +303,7 @@
 </g>
 <!-- Spostamento blade1 -->
 <g id="node28" class="node"><title>Spostamento blade1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1473.25,-1178 1186.75,-1178 1186.75,-1142 1473.25,-1142 1473.25,-1178"/>
+<polygon fill="green" stroke="green" points="1473.25,-1178 1186.75,-1178 1186.75,-1142 1473.25,-1142 1473.25,-1178"/>
 <text text-anchor="middle" x="1330" y="-1156.3" font-family="Times,serif" font-size="14.00">42.Spostamento blade1 (Loris, Massimo, Marco)</text>
 </g>
 <!-- Spegnimento blade1&#45;&gt;Spostamento blade1 -->
@@ -343,7 +343,7 @@
 </g>
 <!-- Spostamento cld&#45;config -->
 <g id="node26" class="node"><title>Spostamento cld&#45;config</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1481.25,-1568 1212.75,-1568 1212.75,-1532 1481.25,-1532 1481.25,-1568"/>
+<polygon fill="green" stroke="green" points="1481.25,-1568 1212.75,-1568 1212.75,-1532 1481.25,-1532 1481.25,-1568"/>
 <text text-anchor="middle" x="1347" y="-1546.3" font-family="Times,serif" font-size="14.00">59.Spostamento cld&#45;config (Massimo, Marco)</text>
 </g>
 <!-- Spegnimento cld&#45;config&#45;&gt;Spostamento cld&#45;config -->
@@ -358,7 +358,7 @@
 </g>
 <!-- Spostamento cld&#45;nat -->
 <g id="node29" class="node"><title>Spostamento cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1617.25,-1440 1390.75,-1440 1390.75,-1404 1617.25,-1404 1617.25,-1440"/>
+<polygon fill="green" stroke="green" points="1617.25,-1440 1390.75,-1440 1390.75,-1404 1617.25,-1404 1617.25,-1440"/>
 <text text-anchor="middle" x="1504" y="-1418.3" font-family="Times,serif" font-size="14.00">61.Spostamento cld&#45;nat (Matteo, Lisa)</text>
 </g>
 <!-- Spegnimento cld&#45;nat&#45;&gt;Spostamento cld&#45;nat -->
@@ -368,7 +368,7 @@
 </g>
 <!-- Spegnimento t2&#45;nfs&#45;ui -->
 <g id="node24" class="node"><title>Spegnimento t2&#45;nfs&#45;ui</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2058,-1440 1838,-1440 1838,-1404 2058,-1404 2058,-1440"/>
+<polygon fill="green" stroke="green" points="2058,-1440 1838,-1440 1838,-1404 2058,-1404 2058,-1440"/>
 <text text-anchor="middle" x="1948" y="-1418.3" font-family="Times,serif" font-size="14.00">56.Spegnimento t2&#45;nfs&#45;ui (Massimo)</text>
 </g>
 <!-- Spegnimento cld&#45;nat&#45;&gt;Spegnimento t2&#45;nfs&#45;ui -->
@@ -378,7 +378,7 @@
 </g>
 <!-- Spostamento t2&#45;nfs&#45;ui -->
 <g id="node27" class="node"><title>Spostamento t2&#45;nfs&#45;ui</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2292,-1178 1996,-1178 1996,-1142 2292,-1142 2292,-1178"/>
+<polygon fill="green" stroke="green" points="2292,-1178 1996,-1178 1996,-1142 2292,-1142 2292,-1178"/>
 <text text-anchor="middle" x="2144" y="-1156.3" font-family="Times,serif" font-size="14.00">57.Spostamento t2&#45;nfs&#45;ui (Rita, PaoloA, Antonino)</text>
 </g>
 <!-- Spegnimento t2&#45;nfs&#45;ui&#45;&gt;Spostamento t2&#45;nfs&#45;ui -->
@@ -388,7 +388,7 @@
 </g>
 <!-- Spostamento switches -->
 <g id="node25" class="node"><title>Spostamento switches</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1978,-1312 1674,-1312 1674,-1008 1978,-1008 1978,-1312"/>
+<polygon fill="green" stroke="green" points="1978,-1312 1674,-1312 1674,-1008 1978,-1008 1978,-1312"/>
 <text text-anchor="middle" x="1826" y="-1156.3" font-family="Times,serif" font-size="14.00">62.Spostamento switches (SergioT, Matteo, Alberto)</text>
 </g>
 <!-- Spegnimento t2&#45;nfs&#45;ui&#45;&gt;Spostamento switches -->
@@ -398,7 +398,7 @@
 </g>
 <!-- Riattivazione link T2 -->
 <g id="node30" class="node"><title>Riattivazione link T2</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2154.25,-972 1951.75,-972 1951.75,-936 2154.25,-936 2154.25,-972"/>
+<polygon fill="green" stroke="green" points="2154.25,-972 1951.75,-972 1951.75,-936 2154.25,-936 2154.25,-972"/>
 <text text-anchor="middle" x="2053" y="-950.3" font-family="Times,serif" font-size="14.00">63.Riattivazione link T2 (SergioT)</text>
 </g>
 <!-- Spostamento switches&#45;&gt;Riattivazione link T2 -->
@@ -433,7 +433,7 @@
 </g>
 <!-- Riattivazione cld&#45;nat -->
 <g id="node36" class="node"><title>Riattivazione cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1614,-972 1416,-972 1416,-936 1614,-936 1614,-972"/>
+<polygon fill="green" stroke="green" points="1614,-972 1416,-972 1416,-936 1614,-936 1614,-972"/>
 <text text-anchor="middle" x="1515" y="-950.3" font-family="Times,serif" font-size="14.00">69.Riattivazione cld&#45;nat (Alberto)</text>
 </g>
 <!-- Spostamento switches&#45;&gt;Riattivazione cld&#45;nat -->
@@ -468,7 +468,7 @@
 </g>
 <!-- Riattivazione cld&#45;config -->
 <g id="node37" class="node"><title>Riattivazione cld&#45;config</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1234,-900 1008,-900 1008,-864 1234,-864 1234,-900"/>
+<polygon fill="green" stroke="green" points="1234,-900 1008,-900 1008,-864 1234,-864 1234,-900"/>
 <text text-anchor="middle" x="1121" y="-878.3" font-family="Times,serif" font-size="14.00">71.Riattivazione cld&#45;config (Massimo)</text>
 </g>
 <!-- Spostamento cld&#45;config&#45;&gt;Riattivazione cld&#45;config -->
@@ -478,7 +478,7 @@
 </g>
 <!-- Riattivazione t2&#45;nfs&#45;ui -->
 <g id="node31" class="node"><title>Riattivazione t2&#45;nfs&#45;ui</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2193,-900 1985,-900 1985,-864 2193,-864 2193,-900"/>
+<polygon fill="green" stroke="green" points="2193,-900 1985,-900 1985,-864 2193,-864 2193,-900"/>
 <text text-anchor="middle" x="2089" y="-878.3" font-family="Times,serif" font-size="14.00">64.Riattivazione t2&#45;nfs&#45;ui (Alberto)</text>
 </g>
 <!-- Spostamento t2&#45;nfs&#45;ui&#45;&gt;Riattivazione t2&#45;nfs&#45;ui -->
