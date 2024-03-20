@@ -150,7 +150,7 @@
 </g>
 <!-- Ricablaggio compute node Padova -->
 <g id="node34" class="node"><title>Ricablaggio compute node Padova</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="959.25,-900 600.75,-900 600.75,-864 959.25,-864 959.25,-900"/>
+<polygon fill="yellow" stroke="yellow" points="959.25,-900 600.75,-900 600.75,-864 959.25,-864 959.25,-900"/>
 <text text-anchor="middle" x="780" y="-878.3" font-family="Times,serif" font-size="14.00">67.Ricablaggio compute node Padova (Matteo, Loris, Alberto)</text>
 </g>
 <!-- Compute node Padova: spegnimento e trasposto su piano basso&#45;&gt;Ricablaggio compute node Padova -->
@@ -200,7 +200,7 @@
 </g>
 <!-- Ricablaggio cld&#45;ctrl&#45;0x -->
 <g id="node48" class="node"><title>Ricablaggio cld&#45;ctrl&#45;0x</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2715,-972 2501,-972 2501,-936 2715,-936 2715,-972"/>
+<polygon fill="green" stroke="green" points="2715,-972 2501,-972 2501,-936 2715,-936 2715,-972"/>
 <text text-anchor="middle" x="2608" y="-950.3" font-family="Times,serif" font-size="14.00">85.Ricablaggio cld&#45;ctrl&#45;0x (SergioT)</text>
 </g>
 <!-- Spegnimento cld&#45;ctrl&#45;0x e spostamento sul piano basso&#45;&gt;Ricablaggio cld&#45;ctrl&#45;0x -->
@@ -313,7 +313,7 @@
 </g>
 <!-- Ricablaggio cld&#45;px* -->
 <g id="node44" class="node"><title>Ricablaggio cld&#45;px*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2483,-972 2287,-972 2287,-936 2483,-936 2483,-972"/>
+<polygon fill="green" stroke="green" points="2483,-972 2287,-972 2287,-936 2483,-936 2483,-972"/>
 <text text-anchor="middle" x="2385" y="-950.3" font-family="Times,serif" font-size="14.00">81.Ricablaggio cld&#45;px* (Alberto)</text>
 </g>
 <!-- Spostamento cld&#45;px* su piano basso&#45;&gt;Ricablaggio cld&#45;px* -->
@@ -323,7 +323,7 @@
 </g>
 <!-- Riattivazione ceph&#45;osd&#45;* -->
 <g id="node41" class="node"><title>Riattivazione ceph&#45;osd&#45;*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2264.25,-756 1983.75,-756 1983.75,-720 2264.25,-720 2264.25,-756"/>
+<polygon fill="green" stroke="green" points="2264.25,-756 1983.75,-756 1983.75,-720 2264.25,-720 2264.25,-756"/>
 <text text-anchor="middle" x="2124" y="-734.3" font-family="Times,serif" font-size="14.00">78.Riattivazione ceph&#45;osd&#45;* (SergioT, Massimo)</text>
 </g>
 <!-- Spostamento ceph&#45;osd&#45;*&#45;&gt;Riattivazione ceph&#45;osd&#45;* -->
@@ -333,7 +333,7 @@
 </g>
 <!-- Riattivazione ceph&#45;mon&#45;01 -->
 <g id="node39" class="node"><title>Riattivazione ceph&#45;mon&#45;01</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1768.25,-900 1523.75,-900 1523.75,-864 1768.25,-864 1768.25,-900"/>
+<polygon fill="green" stroke="green" points="1768.25,-900 1523.75,-900 1523.75,-864 1768.25,-864 1768.25,-900"/>
 <text text-anchor="middle" x="1646" y="-878.3" font-family="Times,serif" font-size="14.00">76.Riattivazione ceph&#45;mon&#45;01 (Massimo)</text>
 </g>
 <!-- Spostamento ceph&#45;mon&#45;01&#45;&gt;Riattivazione ceph&#45;mon&#45;01 -->
@@ -423,7 +423,7 @@
 </g>
 <!-- Riattivazione blade1 -->
 <g id="node35" class="node"><title>Riattivazione blade1</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1487.25,-900 1288.75,-900 1288.75,-864 1487.25,-864 1487.25,-900"/>
+<polygon fill="green" stroke="green" points="1487.25,-900 1288.75,-900 1288.75,-864 1487.25,-864 1487.25,-900"/>
 <text text-anchor="middle" x="1388" y="-878.3" font-family="Times,serif" font-size="14.00">68.Riattivazione blade1 (SergioT)</text>
 </g>
 <!-- Spostamento switches&#45;&gt;Riattivazione blade1 -->
@@ -503,7 +503,7 @@
 </g>
 <!-- Test t2&#45;nfs&#45;ui -->
 <g id="node32" class="node"><title>Test t2&#45;nfs&#45;ui</title>
-<ellipse fill="none" stroke="black" stroke-width="2" cx="2090" cy="-810" rx="107.361" ry="18"/>
+<ellipse fill="green" stroke="green" cx="2090" cy="-810" rx="107.361" ry="18"/>
 <text text-anchor="middle" x="2090" y="-806.3" font-family="Times,serif" font-size="14.00">65.Test t2&#45;nfs&#45;ui (Federica)</text>
 </g>
 <!-- Riattivazione t2&#45;nfs&#45;ui&#45;&gt;Test t2&#45;nfs&#45;ui -->
@@ -543,7 +543,7 @@
 </g>
 <!-- Riaccensione ceph&#45;mon&#45;02/03 -->
 <g id="node40" class="node"><title>Riaccensione ceph&#45;mon&#45;02/03</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1926.25,-828 1663.75,-828 1663.75,-792 1926.25,-792 1926.25,-828"/>
+<polygon fill="green" stroke="green" points="1926.25,-828 1663.75,-828 1663.75,-792 1926.25,-792 1926.25,-828"/>
 <text text-anchor="middle" x="1795" y="-806.3" font-family="Times,serif" font-size="14.00">77.Riaccensione ceph&#45;mon&#45;02/03 (Massimo)</text>
 </g>
 <!-- Riattivazione blade1&#45;&gt;Riaccensione ceph&#45;mon&#45;02/03 -->
@@ -608,7 +608,7 @@
 </g>
 <!-- Riattivare ceph -->
 <g id="node42" class="node"><title>Riattivare ceph</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2214.25,-684 2035.75,-684 2035.75,-648 2214.25,-648 2214.25,-684"/>
+<polygon fill="green" stroke="green" points="2214.25,-684 2035.75,-684 2035.75,-648 2214.25,-648 2214.25,-684"/>
 <text text-anchor="middle" x="2125" y="-662.3" font-family="Times,serif" font-size="14.00">79.Riattivare ceph (Massimo)</text>
 </g>
 <!-- Riattivazione ceph&#45;osd&#45;*&#45;&gt;Riattivare ceph -->
@@ -618,7 +618,7 @@
 </g>
 <!-- Riaccendere cld&#45;log -->
 <g id="node43" class="node"><title>Riaccendere cld&#45;log</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2224.25,-612 2027.75,-612 2027.75,-576 2224.25,-576 2224.25,-612"/>
+<polygon fill="green" stroke="green" points="2224.25,-612 2027.75,-612 2027.75,-576 2224.25,-576 2224.25,-612"/>
 <text text-anchor="middle" x="2126" y="-590.3" font-family="Times,serif" font-size="14.00">80.Riaccendere cld&#45;log (SergioT)</text>
 </g>
 <!-- Riattivare ceph&#45;&gt;Riaccendere cld&#45;log -->
@@ -628,7 +628,7 @@
 </g>
 <!-- Riattivazione cluster px -->
 <g id="node45" class="node"><title>Riattivazione cluster px</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2248,-540 2034,-540 2034,-504 2248,-504 2248,-540"/>
+<polygon fill="green" stroke="green" points="2248,-540 2034,-540 2034,-504 2248,-504 2248,-540"/>
 <text text-anchor="middle" x="2141" y="-518.3" font-family="Times,serif" font-size="14.00">82.Riattivazione cluster px (Alberto)</text>
 </g>
 <!-- Riaccendere cld&#45;log&#45;&gt;Riattivazione cluster px -->
@@ -643,7 +643,7 @@
 </g>
 <!-- Riaccensione Percona -->
 <g id="node46" class="node"><title>Riaccensione Percona</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2244,-468 2038,-468 2038,-432 2244,-432 2244,-468"/>
+<polygon fill="green" stroke="green" points="2244,-468 2038,-468 2038,-432 2244,-432 2244,-468"/>
 <text text-anchor="middle" x="2141" y="-446.3" font-family="Times,serif" font-size="14.00">83.Riaccensione Percona (Alberto)</text>
 </g>
 <!-- Riattivazione cluster px&#45;&gt;Riaccensione Percona -->
@@ -653,7 +653,7 @@
 </g>
 <!-- Riaccensione altre VM cluster px -->
 <g id="node47" class="node"><title>Riaccensione altre VM cluster px</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2290.25,-396 2021.75,-396 2021.75,-360 2290.25,-360 2290.25,-396"/>
+<polygon fill="green" stroke="green" points="2290.25,-396 2021.75,-396 2021.75,-360 2290.25,-360 2290.25,-396"/>
 <text text-anchor="middle" x="2156" y="-374.3" font-family="Times,serif" font-size="14.00">84.Riaccensione altre VM cluster px (Alberto)</text>
 </g>
 <!-- Riaccensione Percona&#45;&gt;Riaccensione altre VM cluster px -->
