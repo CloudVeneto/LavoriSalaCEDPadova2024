@@ -49,12 +49,12 @@ SergioT, Marco: cld-px-10", shape="box", style="filled",color="green"];
 "Riattivazione link T2" [label="63.Riattivazione link T2 (SergioT)", shape="box", style="filled",color="green"];
 "Riattivazione t2-nfs-ui" [label="64.Riattivazione t2-nfs-ui (Alberto)", shape="box", style="filled",color="green"];
 "Test t2-nfs-ui" [label="65.Test t2-nfs-ui (Federica)", shape="oval", style="filled",color="green"];
-"Riattivazione cld-storage-01" [label="70.Riattivazione cld-storage-01 (Massimo)", shape="oval", style="bold"];
-"Ricablaggio compute node Padova" [label="67.Ricablaggio compute node Padova (Matteo, Loris, Alberto)", shape="box", style="filled",color="yellow"]
+"Riattivazione cld-storage-01" [label="70.Riattivazione cld-storage-01 (Massimo)", shape="oval", style="filled",color="green"];
+"Ricablaggio compute node Padova" [label="67.Ricablaggio compute node Padova (Matteo, Loris, Alberto)", shape="box", style="filled",color="green"]
 "Riattivazione blade1" [label="68.Riattivazione blade1 (SergioT)", shape="box", style="filled",color="green"];
 "Riattivazione cld-nat" [label="69.Riattivazione cld-nat (Alberto)", shape="box", style="filled",color="green"];
 "Riattivazione cld-config" [label="71.Riattivazione cld-config (Massimo)", shape="box", style="filled",color="green"];
-"Ricablaggio t2-cld-nat" [label="66.Ricablaggio t2-cld-nat (Alberto)", shape="box", style="bold"];
+"Ricablaggio t2-cld-nat" [label="66.Ricablaggio t2-cld-nat (Alberto)", shape="box", style="filled",color="green"];
 "Riattivazione ceph-mon-01" [label="76.Riattivazione ceph-mon-01 (Massimo)", shape="box", style="filled",color="green"];
 "Riaccensione ceph-mon-02/03" [label="77.Riaccensione ceph-mon-02/03 (Massimo)", shape="box", style="filled",color="green"];
 "Riattivazione ceph-osd-*" [label="78.Riattivazione ceph-osd-* (SergioT, Massimo)", shape="box", style="filled",color="green"];
@@ -65,14 +65,14 @@ SergioT, Marco: cld-px-10", shape="box", style="filled",color="green"];
 "Riaccensione Percona" [label="83.Riaccensione Percona (Alberto)", shape="box", style="filled",color="green"];
 "Riaccensione altre VM cluster px" [label="84.Riaccensione altre VM cluster px (Alberto)", shape="box", style="filled",color="green"];
 "Ricablaggio cld-ctrl-0x" [label="85.Ricablaggio cld-ctrl-0x (SergioT)", shape="box", style="filled",color="green"];
-"Riattivazione cld-ctrl-0x" [label="86.Riattivazione cld-ctrl-0x (Massimo)", shape="box", style="bold"];
-"Riaccensione servizi OpenStack su cld-nl-*" [label="89.Riaccensione servizi OpenStack su cld-nl-* (SergioF, Daniel, Davide)", shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-nl*" [label="72.Update a AlmaLinux9 delle cld-nl* SergioF, Daniel, Davide)", shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-np* che non stanno su blade" [label="73.Update a AlmaLinux9 delle cld-np* che non stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-np* che stanno su blade" [label="74.Update a AlmaLinux9 delle cld-np* che stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
-"Update a AlmaLinux9 delle cld-dfa*" [label="75.Update a AlmaLinux9 delle cld-dfa* (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="bold"];
-"Riaccensione compute node Padova e relativi servizi" [label="92.Riaccensione compute node Padova e relativi servizi (Massimo)", shape="box", style="bold"];
-"Riaccensione servizi OpenStack su t2-cld-nat" [label="88.Riaccensione servizi OpenStack su t2-cld-nat (Massimo)", shape="box", style="bold"];
+"Riattivazione cld-ctrl-0x" [label="86.Riattivazione cld-ctrl-0x (Massimo)", shape="box", style="filled",color="green"];
+"Riaccensione servizi OpenStack su cld-nl-*" [label="89.Riaccensione servizi OpenStack su cld-nl-* (SergioF, Daniel, Davide)", shape="box", style="filled",color="green"];
+"Update a AlmaLinux9 delle cld-nl*" [label="72.Update a AlmaLinux9 delle cld-nl* SergioF, Daniel, Davide)", shape="box", style="filled",color="green"];
+"Update a AlmaLinux9 delle cld-np* che non stanno su blade" [label="73.Update a AlmaLinux9 delle cld-np* che non stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="filled",color="green"];
+"Update a AlmaLinux9 delle cld-np* che stanno su blade" [label="74.Update a AlmaLinux9 delle cld-np* che stanno su blade (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="filled",color="green"];
+"Update a AlmaLinux9 delle cld-dfa*" [label="75.Update a AlmaLinux9 delle cld-dfa* (Federica, Loris, PaoloM, Gianpietro)", shape="box", style="filled",color="green"];
+"Riaccensione compute node Padova e relativi servizi" [label="92.Riaccensione compute node Padova e relativi servizi (Massimo)", shape="box", style="filled",color="green"];
+"Riaccensione servizi OpenStack su t2-cld-nat" [label="88.Riaccensione servizi OpenStack su t2-cld-nat (Massimo)", shape="box", style="filled",color="green"];
 
 #"Abilitazione cld-nl-25..28" [label="90.Abilitazione cld-nl-25..28 (SergioF)", shape="box", style="bold"];
 "Dismissione vecchie cld-nl" [label="91.Dismissione vecchie cld-nl (SergioF, Daniel, Davide)", style="filled",color="yellow"];
@@ -82,7 +82,7 @@ SergioT, Marco: cld-px-10", shape="box", style="filled",color="green"];
 "Birra" [shape="oval", style="bold"];
 "cld-db-* sopra aula A" [label="95.cld-db-* sopra aula A (Massimo, Rita)", shape="oval", style="bold"];
 "Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui" [label="100.Avvisare gli utenti CMS dell'imminente down di t2-nfs-ui (Federica)", shape="box", style="filled",color="green"];
-"Riattivazione link Unipd" [label="101.Riattivazione link Unipd (Matteo, Loris)", shape="box", style="bold"];
+"Riattivazione link Unipd" [label="101.Riattivazione link Unipd (Matteo, Loris)", shape="box", style="filled",color="green"];
 #
 #
 # Dipendenze

@@ -140,7 +140,7 @@
 </g>
 <!-- Riattivazione cld&#45;storage&#45;01 -->
 <g id="node33" class="node"><title>Riattivazione cld&#45;storage&#45;01</title>
-<ellipse fill="none" stroke="black" stroke-width="2" cx="2894" cy="-954" rx="161.279" ry="18"/>
+<ellipse fill="green" stroke="green" cx="2894" cy="-954" rx="161.279" ry="18"/>
 <text text-anchor="middle" x="2894" y="-950.3" font-family="Times,serif" font-size="14.00">70.Riattivazione cld&#45;storage&#45;01 (Massimo)</text>
 </g>
 <!-- cld&#45;storage&#45;01: spegnimento e trasporto su piano basso&#45;&gt;Riattivazione cld&#45;storage&#45;01 -->
@@ -150,7 +150,7 @@
 </g>
 <!-- Ricablaggio compute node Padova -->
 <g id="node34" class="node"><title>Ricablaggio compute node Padova</title>
-<polygon fill="yellow" stroke="yellow" points="959.25,-900 600.75,-900 600.75,-864 959.25,-864 959.25,-900"/>
+<polygon fill="green" stroke="green" points="959.25,-900 600.75,-900 600.75,-864 959.25,-864 959.25,-900"/>
 <text text-anchor="middle" x="780" y="-878.3" font-family="Times,serif" font-size="14.00">67.Ricablaggio compute node Padova (Matteo, Loris, Alberto)</text>
 </g>
 <!-- Compute node Padova: spegnimento e trasposto su piano basso&#45;&gt;Ricablaggio compute node Padova -->
@@ -408,7 +408,7 @@
 </g>
 <!-- Ricablaggio t2&#45;cld&#45;nat -->
 <g id="node38" class="node"><title>Ricablaggio t2&#45;cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2491,-612 2283,-612 2283,-576 2491,-576 2491,-612"/>
+<polygon fill="green" stroke="green" points="2491,-612 2283,-612 2283,-576 2491,-576 2491,-612"/>
 <text text-anchor="middle" x="2387" y="-590.3" font-family="Times,serif" font-size="14.00">66.Ricablaggio t2&#45;cld&#45;nat (Alberto)</text>
 </g>
 <!-- Spostamento switches&#45;&gt;Ricablaggio t2&#45;cld&#45;nat -->
@@ -458,7 +458,7 @@
 </g>
 <!-- Riattivazione link Unipd -->
 <g id="node64" class="node"><title>Riattivazione link Unipd</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1836,-684 1576,-684 1576,-648 1836,-648 1836,-684"/>
+<polygon fill="green" stroke="green" points="1836,-684 1576,-684 1576,-648 1836,-648 1836,-684"/>
 <text text-anchor="middle" x="1706" y="-662.3" font-family="Times,serif" font-size="14.00">101.Riattivazione link Unipd (Matteo, Loris)</text>
 </g>
 <!-- Spostamento switches&#45;&gt;Riattivazione link Unipd -->
@@ -513,7 +513,7 @@
 </g>
 <!-- Update a AlmaLinux9 delle cld&#45;np* che non stanno su blade -->
 <g id="node52" class="node"><title>Update a AlmaLinux9 delle cld&#45;np* che non stanno su blade</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1037.25,-828 462.75,-828 462.75,-792 1037.25,-792 1037.25,-828"/>
+<polygon fill="green" stroke="green" points="1037.25,-828 462.75,-828 462.75,-792 1037.25,-792 1037.25,-828"/>
 <text text-anchor="middle" x="750" y="-806.3" font-family="Times,serif" font-size="14.00">73.Update a AlmaLinux9 delle cld&#45;np* che non stanno su blade (Federica, Loris, PaoloM, Gianpietro)</text>
 </g>
 <!-- Ricablaggio compute node Padova&#45;&gt;Update a AlmaLinux9 delle cld&#45;np* che non stanno su blade -->
@@ -523,7 +523,7 @@
 </g>
 <!-- Update a AlmaLinux9 delle cld&#45;dfa* -->
 <g id="node54" class="node"><title>Update a AlmaLinux9 delle cld&#45;dfa*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="444.25,-828 -0.25,-828 -0.25,-792 444.25,-792 444.25,-828"/>
+<polygon fill="green" stroke="green" points="444.25,-828 -0.25,-828 -0.25,-792 444.25,-792 444.25,-828"/>
 <text text-anchor="middle" x="222" y="-806.3" font-family="Times,serif" font-size="14.00">75.Update a AlmaLinux9 delle cld&#45;dfa* (Federica, Loris, PaoloM, Gianpietro)</text>
 </g>
 <!-- Ricablaggio compute node Padova&#45;&gt;Update a AlmaLinux9 delle cld&#45;dfa* -->
@@ -533,7 +533,7 @@
 </g>
 <!-- Update a AlmaLinux9 delle cld&#45;np* che stanno su blade -->
 <g id="node53" class="node"><title>Update a AlmaLinux9 delle cld&#45;np* che stanno su blade</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1645.25,-828 1094.75,-828 1094.75,-792 1645.25,-792 1645.25,-828"/>
+<polygon fill="green" stroke="green" points="1645.25,-828 1094.75,-828 1094.75,-792 1645.25,-792 1645.25,-828"/>
 <text text-anchor="middle" x="1370" y="-806.3" font-family="Times,serif" font-size="14.00">74.Update a AlmaLinux9 delle cld&#45;np* che stanno su blade (Federica, Loris, PaoloM, Gianpietro)</text>
 </g>
 <!-- Riattivazione blade1&#45;&gt;Update a AlmaLinux9 delle cld&#45;np* che stanno su blade -->
@@ -563,7 +563,7 @@
 </g>
 <!-- Update a AlmaLinux9 delle cld&#45;nl* -->
 <g id="node51" class="node"><title>Update a AlmaLinux9 delle cld&#45;nl*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1296,-756 930,-756 930,-720 1296,-720 1296,-756"/>
+<polygon fill="green" stroke="green" points="1296,-756 930,-756 930,-720 1296,-720 1296,-756"/>
 <text text-anchor="middle" x="1113" y="-734.3" font-family="Times,serif" font-size="14.00">72.Update a AlmaLinux9 delle cld&#45;nl* SergioF, Daniel, Davide)</text>
 </g>
 <!-- Riattivazione cld&#45;config&#45;&gt;Update a AlmaLinux9 delle cld&#45;nl* -->
@@ -588,7 +588,7 @@
 </g>
 <!-- Riaccensione servizi OpenStack su t2&#45;cld&#45;nat -->
 <g id="node56" class="node"><title>Riaccensione servizi OpenStack su t2&#45;cld&#45;nat</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2356,-252 2012,-252 2012,-216 2356,-216 2356,-252"/>
+<polygon fill="green" stroke="green" points="2356,-252 2012,-252 2012,-216 2356,-216 2356,-252"/>
 <text text-anchor="middle" x="2184" y="-230.3" font-family="Times,serif" font-size="14.00">88.Riaccensione servizi OpenStack su t2&#45;cld&#45;nat (Massimo)</text>
 </g>
 <!-- Ricablaggio t2&#45;cld&#45;nat&#45;&gt;Riaccensione servizi OpenStack su t2&#45;cld&#45;nat -->
@@ -673,7 +673,7 @@
 </g>
 <!-- Riattivazione cld&#45;ctrl&#45;0x -->
 <g id="node49" class="node"><title>Riattivazione cld&#45;ctrl&#45;0x</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="2270,-324 2042,-324 2042,-288 2270,-288 2270,-324"/>
+<polygon fill="green" stroke="green" points="2270,-324 2042,-324 2042,-288 2270,-288 2270,-324"/>
 <text text-anchor="middle" x="2156" y="-302.3" font-family="Times,serif" font-size="14.00">86.Riattivazione cld&#45;ctrl&#45;0x (Massimo)</text>
 </g>
 <!-- Riaccensione altre VM cluster px&#45;&gt;Riattivazione cld&#45;ctrl&#45;0x -->
@@ -688,7 +688,7 @@
 </g>
 <!-- Riaccensione servizi OpenStack su cld&#45;nl&#45;* -->
 <g id="node50" class="node"><title>Riaccensione servizi OpenStack su cld&#45;nl&#45;*</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1994,-252 1580,-252 1580,-216 1994,-216 1994,-252"/>
+<polygon fill="green" stroke="green" points="1994,-252 1580,-252 1580,-216 1994,-216 1994,-252"/>
 <text text-anchor="middle" x="1787" y="-230.3" font-family="Times,serif" font-size="14.00">89.Riaccensione servizi OpenStack su cld&#45;nl&#45;* (SergioF, Daniel, Davide)</text>
 </g>
 <!-- Riattivazione cld&#45;ctrl&#45;0x&#45;&gt;Riaccensione servizi OpenStack su cld&#45;nl&#45;* -->
@@ -703,7 +703,7 @@
 </g>
 <!-- Riaccensione compute node Padova e relativi servizi -->
 <g id="node55" class="node"><title>Riaccensione compute node Padova e relativi servizi</title>
-<polygon fill="none" stroke="black" stroke-width="2" points="1561.25,-252 1178.75,-252 1178.75,-216 1561.25,-216 1561.25,-252"/>
+<polygon fill="green" stroke="green" points="1561.25,-252 1178.75,-252 1178.75,-216 1561.25,-216 1561.25,-252"/>
 <text text-anchor="middle" x="1370" y="-230.3" font-family="Times,serif" font-size="14.00">92.Riaccensione compute node Padova e relativi servizi (Massimo)</text>
 </g>
 <!-- Riattivazione cld&#45;ctrl&#45;0x&#45;&gt;Riaccensione compute node Padova e relativi servizi -->
