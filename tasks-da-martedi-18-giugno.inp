@@ -1,0 +1,47 @@
+digraph {
+#
+# Nodi
+#
+##"Spegnimento di tutte le VM" [shape="box", style="filled",color="green"];
+
+
+#"Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="bold"];
+
+
+# Dipendenze
+#
+"Spegnere i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (lun)" -> "Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)"
+"Spegnere cld-ctrl* (lun)" -> "Spostare sul piano alto i cld-ctrl*"
+"Spegnere cld-ctrl* (lun)" -> "Spegnere e spostare cld-storage-01 sul piano alto"
+"Spegnere cld-ctrl* (lun)" -> "Spegnere e spostare cld-config sul piano alto"
+"Spegnere cld-ctrl* (lun)" -> "Spegnere cluster percona"
+"Spegnere cluster percona" -> "Spegnere altre VM sul cluster proxmox"
+"Spegnere altre VM sul cluster proxmox" -> "Spegnere e spostare sul piano alto le cld-px"
+"Spegnere altre VM sul cluster proxmox" -> "Spegnere cluster ceph"
+"Spegnere cluster ceph" -> "Spegnere e spostare ceph-mon-01 sul piano alto"
+"Spegnere cluster ceph" -> "Spegnere e spostare ceph-osd* sul piano alto"
+"Spegnere cluster ceph" -> "Spegnere ceph-mon-02/03 (stanno sulla blade)"
+"Spegnere e spostare ceph-mon-01 sul piano alto" -> "Spegnere cld-log (sta sulla blade)"
+"Spegnere e spostare ceph-osd* sul piano alto" -> "Spegnere cld-log (sta sulla blade)"
+"Spegnere ceph-mon-02/03 (stanno sulla blade)" -> "Spegnere cld-log (sta sulla blade)"
+"Spegnere cld-log (sta sulla blade)" -> "Spegnere e spostare sul piano alto la blade"
+"Spegnere e spostare sul piano alto la blade" -> "Spegnere e spostare sul piano alto cld-nat"
+"Spostare sul piano alto i cld-ctrl*" -> "Spegnere e spostare sul piano alto cld-nat"
+"Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)" -> "Spegnere e spostare sul piano alto cld-nat"
+"Spegnere e spostare cld-config sul piano alto" -> "Spegnere e spostare sul piano alto cld-nat"
+
+"Spegnere e spostare sul piano alto i wp* e gli up-01*" -> "Spegnere e spostare t2-nfs-ui sul piano alto"
+"Avvertire gli utenti di CMS che tra 1 ora si spegne" -> "Spegnere e spostare t2-ui* sul piano alto" 
+"Spegnere e spostare t2-ui* sul piano alto" -> "Spegnere e spostare t2-nfs-ui sul piano alto"
+
+
+"Spegnere e spostare t2-nfs-ui sul piano alto" -> "Spegnimento e spostamento t2-master sul piano alto"
+"Spegnere e spostare sul piano alto i wp* e gli up-01*" -> "Spegnere e spostare t2-squid-02 sul piano alto"
+"Spegnere e spostare sul piano alto cld-nat" -> "Spostamento switches Cloud e T2 sul piano alto"
+"Spegnere e spostare t2-squid-02 sul piano alto" -> "Spegnimento e spostamento t2-master sul piano alto"
+"Spegnere e spostare sul piano alto i wp* e gli up-01*" -> "Spegnere t2-kvm* (e VM li' ospitate) e spostala sul piano alto"
+"Spegnere t2-kvm* (e VM li' ospitate) e spostala sul piano alto" -> "Spegnimento e spostamento t2-master sul piano alto"
+"Spegnimento e spostamento t2-master sul piano alto" -> "Spostamento switches Cloud e T2 sul piano alto"
+"Spostamento switches Cloud e T2 sul piano alto" -> "Ricablaggio"
+}
+

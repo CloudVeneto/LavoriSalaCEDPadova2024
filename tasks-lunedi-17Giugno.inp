@@ -1,0 +1,35 @@
+digraph {
+#
+# Nodi
+#
+##"Spegnimento di tutte le VM" [shape="box", style="filled",color="green"];
+
+
+#"Spegnimento di tutte le VM" [label="2.Spegnimento di tutte le VM (Massimo)"shape="box", style="bold"];
+
+
+# Dipendenze
+#
+"Spegnimento delle VM dai compute node da aggiornare a AlmaLinux9" -> "Migrare le VM che stanno sui compute node da aggiornare"
+"Spegnimento delle VM dai compute node da aggiornare a AlmaLinux9" -> "Spegnimento delle altre VM"
+"Migrare le VM che stanno sui compute node da aggiornare" -> "Reinstallare cld-np-21"
+"Migrare le VM che stanno sui compute node da aggiornare" -> "Reinstallare cld-np-22"
+"Migrare le VM che stanno sui compute node da aggiornare" -> "Reinstallare cld-np-23"
+"Migrare le VM che stanno sui compute node da aggiornare" -> "Reinstallare cld-dfa-07"
+"Reinstallare cld-dfa-07" -> "Riportare su cld-dfa-07 le VM prima migrate"
+"Reinstallare cld-np-21" -> "Riportare su cld-np-21 le VM prima migrate"
+"Riportare su cld-dfa-07 le VM prima migrate" -> "Spegnimento OpenStack su tutti i compute node e t2-cld-nat"
+"Riportare su cld-np-21 le VM prima migrate" -> "Spegnimento OpenStack su tutti i compute node e t2-cld-nat"
+"Reinstallare cld-np-22" -> "Spegnimento OpenStack su tutti i compute node e t2-cld-nat"
+"Reinstallare cld-np-23" -> "Spegnimento OpenStack su tutti i compute node e t2-cld-nat"
+"Spegnimento delle altre VM" -> "Spegnimento OpenStack su tutti i compute node e t2-cld-nat"
+"Spegnimento OpenStack su tutti i compute node e t2-cld-nat" -> "Spegnere OpenStack sui controller node"
+"Spegnimento OpenStack su tutti i compute node e t2-cld-nat" -> "Spegnere i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat"
+"Spegnere OpenStack sui controller node" -> "Spegnere cld-ctrl*"
+
+}
+
+#"Reinstallare cld-np-21" -> "Spegnere e spostare sul piano alto cld-np-21"
+#"Reinstallare cld-np-22" -> "Spegnere e spostare sul piano alto cld-np-22"
+#"Reinstallare cld-np-23" -> "Spegnere e spostare sul piano alto cld-np-23"
+#"Reinstallare cld-dfa-07" -> "Spegnere e spostare sul piano alto cld-dfa-07"
