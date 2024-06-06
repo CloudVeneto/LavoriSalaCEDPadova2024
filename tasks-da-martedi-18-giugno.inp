@@ -10,12 +10,18 @@ digraph {
 
 # Dipendenze
 #
-"Spegnere i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (lun)" -> "Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)"
-"Spegnere cld-ctrl* (lun)" -> "Spostare sul piano alto i cld-ctrl*"
-"Spegnere cld-ctrl* (lun)" -> "Spegnere e spostare cld-storage-01 sul piano alto"
-"Spegnere cld-ctrl* (lun)" -> "Spegnere e spostare cld-config sul piano alto"
-"Spegnere cld-ctrl* (lun)" -> "Spegnere cluster percona"
+#"Spegnere i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (lun)" -> "Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)"
+"start" -> "Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)"
+"start" -> "Spostare sul piano alto i cld-ctrl*"
+"start" -> "Spegnere e spostare cld-storage-01 sul piano alto"
+"start" -> "Spegnere e spostare cld-config sul piano alto"
+"start" -> "Spegnere cluster percona"
 "Spegnere cluster percona" -> "Spegnere altre VM sul cluster proxmox"
+"start" -> "Spegnere e spostare t2-ui* sul piano alto" 
+"start" -> "Spegnere e spostare sul piano alto i wp* e gli up-01*" 
+
+
+
 "Spegnere altre VM sul cluster proxmox" -> "Spegnere e spostare sul piano alto le cld-px"
 "Spegnere altre VM sul cluster proxmox" -> "Spegnere cluster ceph"
 "Spegnere cluster ceph" -> "Spegnere e spostare ceph-mon-01 sul piano alto"
