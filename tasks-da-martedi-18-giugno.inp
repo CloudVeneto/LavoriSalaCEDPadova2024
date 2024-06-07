@@ -14,6 +14,8 @@ digraph {
 "start" -> "Spostare sul piano alto i cld-np*, cld-dfa*, cld-uni*, t2-cld-nat (non la blade)"
 "start" -> "Spostare sul piano alto i cld-ctrl*"
 "start" -> "Spegnere e spostare cld-storage-01 sul piano alto"
+"Spegnere e spostare cld-storage-01 sul piano alto" -> "Spostamento switches Cloud e T2 sul piano alto"
+
 "start" -> "Spegnere e spostare cld-config sul piano alto"
 "start" -> "Spegnere cluster percona"
 "Spegnere cluster percona" -> "Spegnere altre VM sul cluster proxmox"
@@ -23,7 +25,7 @@ digraph {
 
 
 "Spegnere altre VM sul cluster proxmox" -> "Spegnere e spostare sul piano alto le cld-px"
-"Spegnere altre VM sul cluster proxmox" -> "Spegnere cluster ceph"
+"Spegnere e spostare sul piano alto le cld-px" -> "Spegnere cluster ceph"
 "Spegnere cluster ceph" -> "Spegnere e spostare ceph-mon-01 sul piano alto"
 "Spegnere cluster ceph" -> "Spegnere e spostare ceph-osd* sul piano alto"
 "Spegnere cluster ceph" -> "Spegnere ceph-mon-02/03 (stanno sulla blade)"
